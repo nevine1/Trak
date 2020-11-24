@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 34px;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Source Serif Pro", serif;
+}

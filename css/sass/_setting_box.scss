@@ -1,0 +1,99 @@
+.setting {
+  position: fixed;
+  height: 100%;
+  top: 60px;
+  width: 150px;
+  left: -150px;
+  background-color: $setting_color1;
+  z-index: 9999;
+  transition: all 0.5s;
+  border-right: 1px solid grey;
+
+  .toggle_gear {
+    position: absolute;
+    top: 61px;
+    right: -32px;
+    width: 33px;
+    height: 33px;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: $setting_color1;
+
+    .fa-gear {
+      font-size: 20px;
+      color: $setting_color2;
+      cursor: pointer;
+      padding-right: 1px;
+    }
+  }
+
+  .setting-box {
+    background-color: $setting_color2;
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 4px;
+    .colors {
+      .setting-heading {
+        font-size: 13px;
+        color: $setting_color1;
+        padding-top: 10px;
+      }
+      ul {
+        li {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          padding: 5px;
+          background-color: #fff;
+          cursor: pointer;
+          border: 1px solid #444;
+        }
+        &.heading-color {
+          li {
+            &.purple {
+              background-color: #e60cc4;
+            }
+            &.blue {
+              background-color: blue;
+            }
+            &.green {
+              background-color: green;
+            }
+          }
+        }
+        &.bckgrd-color {
+          li {
+            &.pink {
+              background-color: #ffe0f7;
+            }
+            &.lightgreen {
+              background-color: rgb(255, 246, 170);
+            }
+            &.lightblue {
+              background-color: rgb(212, 238, 247);
+            }
+          }
+        }
+        &.change-font {
+          li {
+            &.pink {
+              background-color: pink;
+            }
+            &.lightgreen {
+              background-color: purple;
+            }
+            &.lightblue {
+              background-color: lightblue;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.hide-box {
+    left: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.setting {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 150px;
+  background-color: lightblue;
+  z-index: 9999;
+}
+
+.setting .setting-box {
+  padding: 20px;
+}

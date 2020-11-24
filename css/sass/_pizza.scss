@@ -1,0 +1,86 @@
+.pizza-intro {
+  background: linear-gradient(rgba(0, 0, 0, -0.8), rgba(0, 0, 0, 0.7)),
+    url("../image/pizza.jpg") no-repeat center center / cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    
+    
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 4px;
+      display: block;
+      background-color: #fff;
+      transform: translateY(-4px);
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 4px;
+      display: block;
+      background-color: #fff;
+      transform: translateY(4px);
+    }
+  }
+
+
+}
+
+.menu-m {
+  padding: 50px 0;
+
+  background-color: $burger_color;
+  h2 {
+    margin: 20px;
+    padding-bottom: 20px;
+    color: #333;
+  }
+  .menu_items {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px $txt_color;
+    margin-bottom: 20px;
+    h3 {
+      color: $item_head_color;
+      font-size: 21px;
+      margin: 0;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 0;
+      color: $txt_color;
+      font-size: 18px;
+      padding: 0;
+    }
+    .price {
+      margin-top: 0;
+      p {
+        font-size: 17px;
+        .type {
+          color: $size_type;
+        }
+        .price_p {
+          color: $price_color;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

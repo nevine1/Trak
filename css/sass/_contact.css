@@ -1,0 +1,10 @@
+.contact {
+  margin: 40px 0;
+}
+
+.contact .map-responsive {
+  overflow: hidden;
+  float: right;
+  width: 700;
+  height: 550;
+}

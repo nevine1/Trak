@@ -1,0 +1,138 @@
+.contact {
+  margin: 50px 0;
+  .info {
+    margin: 0 0 10px 0;
+    padding: 10px 0;
+    text-align: center;
+
+    p {
+      color: $p_color2;
+      font-size: 19px;
+      margin-bottom: 0;
+      color: $h3_color;
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        color: #888383;
+      }
+    }
+  }
+  h2 {
+    color: $menu_nav2;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0 30px 0;
+  }
+
+  iframe {
+    border: 2px solid $border;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px $back1;
+  }
+  .my_hours {
+    background-color: $back1;
+    border: 1px solid $border;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px $back1;
+
+    h3 {
+      font-size: 24px;
+      padding: 15px 0;
+      margin: 0;
+      color: $h3_color;
+      font-weight: bold;
+    }
+    .table {
+      margin: 0;
+      tr {
+        td {
+          font-size: 18px;
+          color: $p_color2;
+          padding: 5px;
+          padding: 10px 0;
+        }
+        .day {
+          font-weight: bold;
+          font-size: 18px;
+          color: #867e7e;
+        }
+      }
+    }
+  }
+}
+/* =================================== media queries ==============================*/
+@media (max-width: 480px) {
+  .contact {
+    margin: 20px 0;
+    .info {
+      p {
+        font-size: 18px;
+
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+    h2 {
+      font-size: 25px;
+
+      margin: 15px 0;
+    }
+
+    /*    iframe {
+    } */
+    .my_hours {
+      h3 {
+        font-size: 21px;
+        padding: 10px 0;
+      }
+      .table {
+        tr {
+          td {
+            font-size: 17px;
+          }
+          .day {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*========================== media query  =================*/
+
+/*========================== max sizse 320px =================*/
+
+@media (max-width: 320px) {
+}
+
+/*========================== max sizse 768px =================*/
+
+@media (max-width: 480px) {
+}
+/*========================== max sizse 600px =================*/
+
+@media (max-width: 600px) {
+}
+
+/*========================== max sizse 768px =================*/
+
+@media (max-width: 768px) {
+}
+
+/*========================== max sizse 900px =================*/
+
+@media (max-width: 900px) {
+}
+
+/*========================== max sizse 1024px =================*/
+
+@media (max-width: 1024px) {
+}
+
+/*========================== max sizse 1200px =================*/
+
+@media (max-width: 1200px) {
+}

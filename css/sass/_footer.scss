@@ -1,0 +1,103 @@
+.up {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 100;
+  transition: all 0.9s;
+  transform: translateX(100px);
+  .up-icon {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: $blue1;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
+footer {
+  position: relative;
+  background-color: $dark;
+  height: auto;
+  padding: 20px;
+  h4 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .social {
+    a {
+      i {
+        @extend .social-icons;
+      }
+    }
+  }
+  p {
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.reserve-deliver {
+  position: fixed;
+  width: 40%;
+  height: 30%;
+  left: 10px;
+  bottom: 10px;
+  background-color: red;
+  color: blue;
+  z-index: 1000;
+  p {
+    font-size: 40px;
+    color: red;
+  }
+}
+
+/*========================== media query  =================*/
+
+/*========================== max sizse 320px =================*/
+
+@media (max-width: 320px) {
+}
+
+/*========================== max sizse 768px =================*/
+
+@media (max-width: 480px) {
+}
+/*========================== max sizse 600px =================*/
+
+@media (max-width: 600px) {
+}
+
+/*========================== max sizse 768px =================*/
+
+@media (max-width: 768px) {
+}
+
+/*========================== max sizse 900px =================*/
+
+@media (max-width: 900px) {
+}
+
+/*========================== max sizse 1024px =================*/
+
+@media (max-width: 1024px) {
+}
+
+/*========================== max sizse 1200px =================*/
+
+@media (max-width: 1200px) {
+}
