@@ -1103,9 +1103,11 @@ header {
             padding: 30px 0; }
             .menu_all .menu_content .my-container .content .menu-m .top_item {
               padding: 4px 30px 4px 20px;
-              margin: 0 4px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .grill {
-                padding: 0; }
+              margin: 0 4px;
+              /*  .top_span5 {
+                position: relative;
+                right: -29px;
+              } */ }
               .menu_all .menu_content .my-container .content .menu-m .top_item .top_span1 {
                 position: relative;
                 right: -17px; }
@@ -1121,9 +1123,6 @@ header {
               .menu_all .menu_content .my-container .content .menu-m .top_item .top_span4 {
                 position: relative;
                 right: -30px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span5 {
-                position: relative;
-                right: -29px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item p {
                 font-size: 13px;
                 padding: 0 5px; }
@@ -1134,11 +1133,15 @@ header {
                 position: absolute;
                 right: 11px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item .grill {
-                padding: 0;
-                /*  .grill_span {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .grill .grill_span {
                   position: absolute;
-                  right: 0;
-                } */ }
+                  right: 0; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .fries {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .fries .fries_span {
+                  position: relative;
+                  right: 9px; }
             .menu_all .menu_content .my-container .content .menu-m h2 {
               font-size: 18px;
               margin-bottom: 15px; }
@@ -1147,7 +1150,11 @@ header {
                 font-style: italic; }
             .menu_all .menu_content .my-container .content .menu-m .menu-item {
               padding: 10px 15px;
-              border-radius: 5px; }
+              border-radius: 5px;
+              /* .right_span {
+                position: absolute;
+                right: 20px;
+              } */ }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .side_span3 {
                 padding-right: 0; }
                 .menu_all .menu_content .my-container .content .menu-m .menu-item .side_span3 .side_span2 {
@@ -1172,9 +1179,6 @@ header {
                 padding-top: 3px;
                 font-weight: bold;
                 color: #3f3d3d; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .right_span {
-                position: absolute;
-                right: 20px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .pizza_span {
                 position: absolute;
                 right: -14px;
@@ -1183,6 +1187,10 @@ header {
                 right: -16px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .num_span {
                 color: #9c4343; }
+              .menu_all .menu_content .my-container .content .menu-m .menu-item .grill2 {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .menu-item .grill2 .grill_span2 {
+                  padding-right: 4px; }
             .menu_all .menu_content .my-container .content .menu-m .hr {
               width: 70%;
               margin-bottom: 8px; } }

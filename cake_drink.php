@@ -210,12 +210,12 @@ include "includes/header.php";
 
                             <div class="top_item">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span5 ">REG.</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right fries_span  top_span5 ">REG.</span></div>
 
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span5 ">LRG</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right  fries_span  top_span5 ">LRG</span></div>
 
                                 </div>
                             </div>

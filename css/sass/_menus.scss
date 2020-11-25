@@ -348,9 +348,7 @@
             .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px;
-              .grill {
-                padding: 0;
-              }
+
               .top_span1 {
                 position: relative;
                 right: -17px;
@@ -372,10 +370,10 @@
                 position: relative;
                 right: -30px;
               }
-              .top_span5 {
+              /*  .top_span5 {
                 position: relative;
                 right: -29px;
-              }
+              } */
 
               p {
                 font-size: 13px;
@@ -391,10 +389,17 @@
               }
               .grill {
                 padding: 0;
-                /*  .grill_span {
+                .grill_span {
                   position: absolute;
                   right: 0;
-                } */
+                }
+              }
+              .fries {
+                padding: 0;
+                .fries_span {
+                  position: relative;
+                  right: 9px;
+                }
               }
             }
             h2 {
@@ -441,10 +446,10 @@
                 font-weight: bold;
                 color: $price2_color;
               }
-              .right_span {
+              /* .right_span {
                 position: absolute;
                 right: 20px;
-              }
+              } */
 
               .pizza_span {
                 position: absolute;
@@ -456,6 +461,13 @@
               }
               .num_span {
                 color: $price_color;
+              }
+
+              .grill2 {
+                padding: 0;
+                .grill_span2 {
+                  padding-right: 4px;
+                }
               }
             }
 
