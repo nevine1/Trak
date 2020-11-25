@@ -7,7 +7,7 @@ include "includes/header.php";
 <!--starting of banner-->
 <div class="menu-intro d-flex flex-column text-center">
 
-    <h2> Pizza & Italian Dinner</h3>
+    <h2> Cakes & Drinks & Fries</h3>
 
 </div>
 
@@ -40,7 +40,7 @@ include "includes/header.php";
                                     <div class="col-md-10 col-sm-10 col-10">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right  top_span1 ">1pc</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right  top_span3 ">1pc</span></div>
 
                                 </div>
                             </div>
@@ -123,9 +123,9 @@ include "includes/header.php";
                                     <div class="col-md-9 col-sm-9 col-9">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span1">REG.</span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span4">REG.</span></div>
 
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span1">LRG</span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span4">LRG</span></div>
 
                                 </div>
                             </div>
@@ -213,9 +213,9 @@ include "includes/header.php";
                                     <div class="col-md-9 col-sm-9 col-9">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span1 ">REG.</span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span5 ">REG.</span></div>
 
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span1 ">LRG</span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span5 ">LRG</span></div>
 
                                 </div>
                             </div>

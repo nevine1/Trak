@@ -145,7 +145,7 @@ include "includes/header.php";
                                         <h3>Fried Shrimp </h3>
 
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span ">4.99 </span> </div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span side_span4">4.99 </span> </div>
                                     <div class="col-md-1 col-sm-1 col-1 "><span class="num_span pizza_span "> 10pcs</span></div>
                                 </div>
                             </div>
@@ -157,14 +157,14 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12 col-12">
                             <div class="menu-item menu_item-8">
                                 <div class="row">
-                                    <div class="col-md-6 col-sm-6 col-6">
+                                    <div class="col-md-7 col-sm-7 col-7">
                                         <h3>Fried Fish </h3>
 
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span ">3.99 </span> </div>
-                                    <div class="col-md-1 col-sm-1 col-1 "> <span class="float-right  num_span pizza_span ">1pc</span> </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span ">3.99 </span> </div>
-                                    <div class="col-md-1 col-sm-1 col-1 "><span class="float-right num_span pizza_span "> 2pcs </span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  side_span1 ">3.99 </span> </div>
+                                    <div class="col-md-1 col-sm-1 col-1 side_span3"> <span class="float-right  num_span side_span2 ">1pc</span> </div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  side_span1 ">3.99 </span> </div>
+                                    <div class="col-md-1 col-sm-1 col-1 side_span3 "><span class="float-right num_span side_span2 "> 2pcs </span></div>
                                 </div>
                             </div>
                         </div>
@@ -189,8 +189,8 @@ include "includes/header.php";
                                     <div class=" col-md-9 col-sm-9 col-9">
 
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span1 ">6"REG.</span></div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span1">12"LAR.</span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span2 ">6"</span></div>
+                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span2">12"</span></div>
                                 </div>
                             </div>
                         </div>

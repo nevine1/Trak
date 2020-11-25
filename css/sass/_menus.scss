@@ -14,7 +14,7 @@
 
   h2 {
     position: absolute;
-    color: #fff; 
+    color: #fff;
     font-size: 50px;
     font-weight: bold;
 
@@ -177,7 +177,7 @@
             padding: 0 30px;
             margin: 0 20px;
             transition: all 0.6s ease-in;
-            opacity: 0;
+            opacity: 1;
             p {
               color: $price_color;
               font-size: 15px;
@@ -306,7 +306,170 @@
 
 //============================================ media query  for all devices ===============================================
 
-// Small devices (landscape phones, 576px and up)
+//============================================ media query  387px =================================
+@media (max-width: 387px) {
+  body {
+    line-height: normal;
+  }
+  .menu-intro,
+  .burg-intro,
+  .pizza-intro {
+    height: 70vh;
+    h2 {
+      margin-top: 20px;
+      font-size: 23px;
+    }
+  }
+  /*================================= starting of menu all nav tabs ===================*/
+  .menu_all {
+    .menu_nav {
+      ul {
+        height: 35px;
+        li {
+          padding: 0 5px;
+          font-size: 17px;
+          letter-spacing: 0px;
+        }
+      }
+    }
+    /* ======================ending of nav tabs menu ===============================*/
+    .menu_content {
+      margin: 0 auto;
+      background-color: $back1;
+
+      .my-container {
+        padding: 0;
+
+        .content {
+          width: 100%;
+
+          .menu-m {
+            padding: 30px 0;
+            .top_item {
+              padding: 4px 30px 4px 20px;
+              margin: 0 4px;
+              .grill {
+                padding: 0;
+              }
+              .top_span1 {
+                position: relative;
+                right: -17px;
+              }
+              .top_span2 {
+                position: relative;
+                right: -26px;
+              }
+              .top_span3 {
+                position: relative;
+                right: 4px;
+              }
+
+              .top_span3 {
+                position: relative;
+                right: 4x;
+              }
+              .top_span4 {
+                position: relative;
+                right: -30px;
+              }
+              .top_span5 {
+                position: relative;
+                right: -29px;
+              }
+
+              p {
+                font-size: 13px;
+                padding: 0 5px;
+              }
+              span {
+                font-size: 13px;
+                text-align: right;
+              }
+              .top_span {
+                position: absolute;
+                right: 11px;
+              }
+              .grill {
+                padding: 0;
+                /*  .grill_span {
+                  position: absolute;
+                  right: 0;
+                } */
+              }
+            }
+            h2 {
+              font-size: 18px;
+              margin-bottom: 15px;
+              .heading-span {
+                color: $menu_nav2;
+                font-style: italic;
+              }
+            }
+
+            .menu-item {
+              padding: 10px 15px;
+              border-radius: 5px;
+              .side_span3 {
+                padding-right: 0;
+                .side_span2 {
+                  position: relative;
+                  right: -14px;
+                }
+              }
+              .side_span1 {
+                position: relative;
+                right: -30px;
+              }
+              .side_span4 {
+                padding-right: 5px;
+              }
+              h3 {
+                font-size: 17px;
+                margin-bottom: 4px;
+                padding-top: 0;
+              }
+              p {
+                font-size: 15px;
+                padding-top: 2px;
+              }
+              .mid_span {
+                margin-left: 4px;
+              }
+              span {
+                font-size: 13px;
+                padding-top: 3px;
+                font-weight: bold;
+                color: $price2_color;
+              }
+              .right_span {
+                position: absolute;
+                right: 20px;
+              }
+
+              .pizza_span {
+                position: absolute;
+                right: -14px;
+                padding-left: 5px;
+              }
+              .pizza_span2 {
+                right: -16px;
+              }
+              .num_span {
+                color: $price_color;
+              }
+            }
+
+            .hr {
+              width: 70%;
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//============================================ media query  480px =================================
 @media (max-width: 480px) {
   body {
     line-height: normal;
@@ -314,19 +477,7 @@
   .menu-intro,
   .burg-intro,
   .pizza-intro {
-    /*  background: linear-gradient(rgba(0, 0, 0, -0.8), rgba(0, 0, 0, 0.7)),
-      url("../image/pizza.jpg") no-repeat center center / cover;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    z-index: 10;
-    top: 0;
-    left: 0; */
-    height: 50vh;
-    /*   width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
+    height: 70vh;
     h2 {
       margin-top: 20px;
       font-size: 28px;
@@ -335,26 +486,12 @@
   /*================================= starting of menu all nav tabs ===================*/
   .menu_all {
     .menu_nav {
-      /*  margin: 0;
-      padding: 0;
-      width: 100vw; */
       ul {
         height: 35px;
-        /* background-color: $setting_color1;
-        text-align: center;
-        
-        margin: 0 auto; */
-
         li {
-          /*  display: inline-block; */
           padding: 0 10px;
-          /*  cursor: pointer;
-          font-weight: bold; */
           line-height: 35px;
           font-size: 18px;
-          /* color: $menu_nav2;
-          background-color: $back1;
-          transition: all 0.5s;*/
           letter-spacing: 1px;
         }
       }
@@ -368,19 +505,10 @@
         padding: 0;
 
         .content {
-          /* background-color: $back1;
-            padding: 10px; */
           width: 100%;
-          /*  margin: auto;
-            overflow: hidden; */
-
-          /* &:not(:first-of-type) {
-              display: none;
-            } */
 
           .menu-m {
             padding: 30px 0;
-            /* box-sizing: border-box; */
             .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px;
@@ -389,17 +517,34 @@
                 position: relative;
                 right: -17px;
               }
-              .cake_span {
-                margin-left: 8px;
-                color: rgb(63, 62, 62);
+              .top_span2 {
+                position: relative;
+                right: -26px;
               }
+              .top_span3 {
+                position: relative;
+                right: 4px;
+              }
+
+              .top_span3 {
+                position: relative;
+                right: 4x;
+              }
+              .top_span4 {
+                position: relative;
+                right: -30px;
+              }
+              .top_span5 {
+                position: relative;
+                right: -29px;
+              }
+
               p {
-                /*  color: $price_color; */
                 font-size: 13px;
                 padding: 0 5px;
               }
               span {
-                font-size: 12px;
+                font-size: 13px;
                 text-align: right;
               }
               .top_span {
@@ -408,9 +553,7 @@
               }
             }
             h2 {
-              font-size: 21px;
-              /* font-weight: bold;
-                color: $h2; */
+              font-size: 20px;
               margin-bottom: 15px;
               .heading-span {
                 color: $menu_nav2;
@@ -419,24 +562,30 @@
             }
 
             .menu-item {
-              /* background-color: $burger_color; */
               padding: 10px 15px;
               border-radius: 5px;
-              /*  margin: 5px 20px 20px 20px;
-                box-sizing: border-box; */
+              .side_span3 {
+                padding-right: 0;
+                .side_span2 {
+                  position: relative;
+                  right: -14px;
+                }
+              }
+              .side_span1 {
+                position: relative;
+                right: -30px;
+              }
+              .side_span4 {
+                padding-right: 5px;
+              }
               h3 {
-                /* color: $item_head_color; */
                 font-size: 17px;
                 margin-bottom: 4px;
                 padding-top: 0;
-                /*font-weight: 600; */
               }
               p {
-                /* margin-bottom: 0;
-                  color: $txt_color; */
                 font-size: 15px;
                 padding-top: 2px;
-                /* padding-right: 20px; */
               }
               .mid_span {
                 margin-left: 4px;
@@ -457,17 +606,17 @@
                 right: -14px;
                 padding-left: 5px;
               }
+              .pizza_span2 {
+                right: -16px;
+              }
               .num_span {
                 color: $price_color;
               }
             }
 
             .hr {
-              /*  margin: auto; */
               width: 70%;
-              /* background-color: $burger_color; */
               margin-bottom: 8px;
-              /* height: 2px; */
             }
           }
         }
@@ -476,14 +625,14 @@
   }
 }
 
-// Medium devices (tablets, 768px and up)
+//====================== Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 }
 
-// Large devices (desktops, 992px and up)
+//============================= Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 }
 
-// Extra large devices (large desktops, 1200px and up)
+//===================== Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
 }

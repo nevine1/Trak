@@ -120,7 +120,7 @@ include "includes/header.php";
                   </div>
                   <div class="col-md-1 col-sm-1 col-1"><span class="pizza_span ">8.99</span></div>
                   <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span ">9.99</span></div>
-                  <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span ">10.99</span></div>
+                  <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span pizza_span2">10.99</span></div>
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@ include "includes/header.php";
                   </div>
                   <div class="col-md-1 col-sm-1 col-1"><span class="pizza_span ">8.99</span></div>
                   <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span ">9.99</span></div>
-                  <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span "> 10.99</span></div>
+                  <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span pizza_span2"> 10.99</span></div>
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@ include "includes/header.php";
                   </div>
                   <div class="col-md-1 col-sm-1 col-1"><span class="pizza_span ">8.99</span></div>
                   <div class="col-md-1 col-sm-1 col-1"><span class="pizza_span ">9.99</span></div>
-                  <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span "> 10.99</span></div>
+                  <div class="col-md-1 col-sm-1 col-1 "><span class="pizza_span pizza_span2"> 10.99</span></div>
                 </div>
               </div>
             </div>
