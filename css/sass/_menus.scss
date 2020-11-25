@@ -401,6 +401,13 @@
                   right: 9px;
                 }
               }
+              .drink {
+                padding: 0;
+                .drink_span {
+                  position: relative;
+                  right: 9px;
+                }
+              }
             }
             h2 {
               font-size: 18px;
@@ -469,8 +476,23 @@
                   padding-right: 4px;
                 }
               }
+
+              .fries1 {
+                padding: 0;
+                .fries_span1 {
+                  position: relative;
+                  right: 9px;
+                }
+              }
             }
 
+            .drink1 {
+              padding: 0;
+              .drink_span1 {
+                position: relative;
+                right: 9px;
+              }
+            }
             .hr {
               width: 70%;
               margin-bottom: 8px;

@@ -120,12 +120,12 @@ include "includes/header.php";
 
                             <div class="top_item">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span4">REG.</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink"><span class="float-right drink_span  ">REG.</span></div>
 
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   top_span4">LRG</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink"><span class="float-right drink_span  ">LRG</span></div>
 
                                 </div>
                             </div>
@@ -134,13 +134,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-1">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>Lemonade</h3>
                                         <p>Regular, Strawberry, Raspberry</p>
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span ">1.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  ">1.99 </span></div>
 
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   pizza_span ">2.69 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right   drink_span1 ">2.69 </span></div>
                                 </div>
                             </div>
                         </div>
@@ -150,13 +150,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-2">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>Kool-Aid</h3>
                                         <p>Hawailan Punch, Berry Blue</p>
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span  ">1.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  ">1.99 </span></div>
 
-                                    <div class="col-md-1  col-sm-1 col-1"><span class=" pizza_span ">2.69 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right drink_span1 ">2.69 </span></div>
                                 </div>
                             </div>
                         </div>
@@ -166,13 +166,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-2">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>20 OZ Soda </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span  ">1.79 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  ">1.79 </span></div>
 
-                                    <div class="col-md-1  col-sm-1 col-1"><span class=" "></span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class=" "></span></div>
                                 </div>
                             </div>
                         </div>
@@ -183,13 +183,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-2">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>2 Liter Soda </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   pizza_span ">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right   drink_span1 ">2.99 </span></div>
 
-                                    <div class="col-md-1  col-sm-1 col-1"><span class=" "></span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class=" "></span></div>
                                 </div>
                             </div>
                         </div>
@@ -213,9 +213,9 @@ include "includes/header.php";
                                     <div class="col-md-8 col-sm-8 col-8">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right fries_span  top_span5 ">REG.</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right fries_span    ">REG.</span></div>
 
-                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right  fries_span  top_span5 ">LRG</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right  fries_span   ">LRG</span></div>
 
                                 </div>
                             </div>
@@ -224,13 +224,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-1">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>Fries</h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Provolone</p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   pizza_span">2.29 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1   ">2.29 </span></div>
 
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right  pizza_span ">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1   ">2.99 </span></div>
                                 </div>
                             </div>
                         </div>
@@ -240,13 +240,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-2">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>Cheese Fries </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   pizza_span">2.69 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fires1"><span class="float-right   fries_span1">2.69 </span></div>
 
-                                    <div class="col-md-1  col-sm-1 col-1"><span class="pizza_span ">3.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1 ">3.99 </span></div>
                                 </div>
                             </div>
                         </div>
@@ -256,13 +256,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-2">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>Chili Fries </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   pizza_span">2.69 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right   fries_span1">2.69 </span></div>
 
-                                    <div class="col-md-1  col-sm-1 col-1"><span class=" pizza_span">3.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1 ">3.99 </span></div>
                                 </div>
                             </div>
                         </div>
@@ -273,13 +273,13 @@ include "includes/header.php";
                         <div class="col-md-12 col-sm-12">
                             <div class="menu-item menu_item-2">
                                 <div class="row">
-                                    <div class="col-md-9 col-sm-9 col-9">
+                                    <div class="col-md-8 col-sm-8 col-8">
                                         <h3>Chili Cheese Fries </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-1 col-sm-1 col-1"><span class="float-right   pizza_span">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right  fries_span1 ">2.99 </span></div>
 
-                                    <div class="col-md-1  col-sm-1 col-1"><span class=" pizza_span">4.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1">4.99 </span></div>
                                 </div>
                             </div>
                         </div>

@@ -1142,6 +1142,11 @@ header {
                 .menu_all .menu_content .my-container .content .menu-m .top_item .fries .fries_span {
                   position: relative;
                   right: 9px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .drink {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .drink .drink_span {
+                  position: relative;
+                  right: 9px; }
             .menu_all .menu_content .my-container .content .menu-m h2 {
               font-size: 18px;
               margin-bottom: 15px; }
@@ -1191,6 +1196,16 @@ header {
                 padding: 0; }
                 .menu_all .menu_content .my-container .content .menu-m .menu-item .grill2 .grill_span2 {
                   padding-right: 4px; }
+              .menu_all .menu_content .my-container .content .menu-m .menu-item .fries1 {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .menu-item .fries1 .fries_span1 {
+                  position: relative;
+                  right: 9px; }
+            .menu_all .menu_content .my-container .content .menu-m .drink1 {
+              padding: 0; }
+              .menu_all .menu_content .my-container .content .menu-m .drink1 .drink_span1 {
+                position: relative;
+                right: 9px; }
             .menu_all .menu_content .my-container .content .menu-m .hr {
               width: 70%;
               margin-bottom: 8px; } }
