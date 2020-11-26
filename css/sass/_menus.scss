@@ -348,7 +348,10 @@
             .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px;
-
+                .pizza_span{
+                  position: relative;
+                  right: 8px;
+                }
               .top_span1 {
                 position: relative;
                 right: -17px;
@@ -410,7 +413,7 @@
               }
             }
             h2 {
-              font-size: 18px;
+              font-size: 19px;
               margin-bottom: 15px;
               .heading-span {
                 color: $menu_nav2;
@@ -436,7 +439,7 @@
                 padding-right: 5px;
               }
               h3 {
-                font-size: 17px;
+                font-size: 16px;
                 margin-bottom: 4px;
                 padding-top: 0;
               }
@@ -453,19 +456,7 @@
                 font-weight: bold;
                 color: $price2_color;
               }
-              /* .right_span {
-                position: absolute;
-                right: 20px;
-              } */
-
-              .pizza_span {
-                position: absolute;
-                right: -14px;
-                padding-left: 5px;
-              }
-              .pizza_span2 {
-                right: -16px;
-              }
+             
               .num_span {
                 color: $price_color;
               }

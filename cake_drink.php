@@ -40,7 +40,7 @@ include "includes/header.php";
                                     <div class="col-md-10 col-sm-10 col-10">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right  top_span3 ">1pc</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right    ">1pc</span></div>
 
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ include "includes/header.php";
                                         <h3>Raspberry Cake </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   " style="padding:  2px;">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   " >2.99 </span></div>
 
                                 </div>
                             </div>

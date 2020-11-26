@@ -1108,6 +1108,9 @@ header {
                 position: relative;
                 right: -29px;
               } */ }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .pizza_span {
+                position: relative;
+                right: 8px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item .top_span1 {
                 position: relative;
                 right: -17px; }
@@ -1148,18 +1151,14 @@ header {
                   position: relative;
                   right: 9px; }
             .menu_all .menu_content .my-container .content .menu-m h2 {
-              font-size: 18px;
+              font-size: 19px;
               margin-bottom: 15px; }
               .menu_all .menu_content .my-container .content .menu-m h2 .heading-span {
                 color: #0fabbc;
                 font-style: italic; }
             .menu_all .menu_content .my-container .content .menu-m .menu-item {
               padding: 10px 15px;
-              border-radius: 5px;
-              /* .right_span {
-                position: absolute;
-                right: 20px;
-              } */ }
+              border-radius: 5px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .side_span3 {
                 padding-right: 0; }
                 .menu_all .menu_content .my-container .content .menu-m .menu-item .side_span3 .side_span2 {
@@ -1171,7 +1170,7 @@ header {
               .menu_all .menu_content .my-container .content .menu-m .menu-item .side_span4 {
                 padding-right: 5px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item h3 {
-                font-size: 17px;
+                font-size: 16px;
                 margin-bottom: 4px;
                 padding-top: 0; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item p {
@@ -1184,12 +1183,6 @@ header {
                 padding-top: 3px;
                 font-weight: bold;
                 color: #3f3d3d; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .pizza_span {
-                position: absolute;
-                right: -14px;
-                padding-left: 5px; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .pizza_span2 {
-                right: -16px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .num_span {
                 color: #9c4343; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .grill2 {
