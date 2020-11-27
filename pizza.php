@@ -40,8 +40,8 @@ include "includes/header.php";
                   <div class="col-md-6 col-sm-6 col-6">
                     <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class=" pizza_span float-right">S</span></div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class=" pizza_span float-right">M</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class=" pizza_span pizza_top_second float-right">S</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class=" pizza_span pizza_second float-right">M</span></div>
                   <div class="col-md-2 col-sm-2 col-2"><span class=" pizza_span float-right">L</span></div>
                 </div>
               </div>
@@ -54,8 +54,8 @@ include "includes/header.php";
                     <h3>Cheese Pizza </h3>
                     <!-- <p>Grilled Steak, Onion, G.Pepper, Provolone</p> -->
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right ">4.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 "><span class=" float-right">5.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right pizza_second2_2">4.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 "><span class=" float-right pizza_second2">5.99</span></div>
                   <div class="col-md-2 col-sm-2 col-2 "><span class=" float-right">6.99</span></div>
                 </div>
               </div>
@@ -70,8 +70,8 @@ include "includes/header.php";
                     <h3>Pepperoni Pizza </h3>
                     <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right ">6.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right  ">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2_2">6.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right  pizza_second2">7.99</span></div>
                   <div class="col-md-2 col-sm-2 col-2 "><span class="float-right  ">8.99</span></div>
                 </div>
               </div>
@@ -86,8 +86,8 @@ include "includes/header.php";
                     <h3>Meat Lover Pizza </h3>
                     <p>Pepperoni, Sausge, G.Geef, Ham, Cheese.</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right ">7.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right ">8.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2_2">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2">8.99</span></div>
                   <div class="col-md-2 col-sm-2 col-2 "><span class="float-right ">9.99</span></div>
                 </div>
               </div>
@@ -102,8 +102,8 @@ include "includes/header.php";
                     <h3>Veggie Pizza </h3>
                     <p>Onion, G.Pepper, Mushroom, Black Olive, Banana Pepper, Cheese.</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right ">5.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right ">6.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2_2">5.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right pizza_second2">6.99</span></div>
                   <div class="col-md-2 col-sm-2 col-2 "><span class="float-right ">7.99</span></div>
                 </div>
               </div>
@@ -118,8 +118,8 @@ include "includes/header.php";
                     <h3>Supreme Pizza </h3>
                     <p>3 Choice Meat & 3 Choice Veggie</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right ">8.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right ">9.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2_2">8.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right pizza_second2">9.99</span></div>
                   <div class="col-md-2 col-sm-2 col-2 "><span class="float-right">10.99</span></div>
                 </div>
               </div>
@@ -134,9 +134,9 @@ include "includes/header.php";
                     <h3>Steak & Cheese Pizza </h3>
                     <!-- <p>Grilled Turkey, Onion, G.Pepper, Swiss</p> -->
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right">8.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right">9.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right"> 10.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2_2">8.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right pizza_second2">9.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 "><span class="float-right">  10.99</span></div>
                 </div>
               </div>
             </div>
@@ -150,8 +150,8 @@ include "includes/header.php";
                     <h3>Chicken Pizza </h3>
                     <!-- <p>Grilled Onion, Bacon, G.Pepper, Black Olive, Swiss </p> -->
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right">8.99</span></div>
-                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right">9.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2_2">8.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2"><span class="float-right pizza_second2">9.99</span></div>
                   <div class="col-md-2 col-sm-2 col-2 "><span class="float-right"> 10.99</span></div>
                 </div>
               </div>

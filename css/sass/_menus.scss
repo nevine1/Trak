@@ -352,31 +352,6 @@
                   position: relative;
                   right: 8px;
                 }
-              .top_span1 {
-                position: relative;
-                right: -17px;
-              }
-              .top_span2 {
-                position: relative;
-                right: -26px;
-              }
-              .top_span3 {
-                position: relative;
-                right: 4px;
-              }
-
-              .top_span3 {
-                position: relative;
-                right: 4x;
-              }
-              .top_span4 {
-                position: relative;
-                right: -30px;
-              }
-              /*  .top_span5 {
-                position: relative;
-                right: -29px;
-              } */
 
               p {
                 font-size: 13px;
@@ -385,10 +360,6 @@
               span {
                 font-size: 13px;
                 text-align: right;
-              }
-              .top_span {
-                position: absolute;
-                right: 11px;
               }
               .grill {
                 padding: 0;
@@ -447,9 +418,7 @@
                 font-size: 15px;
                 padding-top: 2px;
               }
-              .mid_span {
-                margin-left: 4px;
-              }
+
               span {
                 font-size: 13px;
                 padding-top: 3px;
@@ -505,7 +474,7 @@
     height: 70vh;
     h2 {
       margin-top: 20px;
-      font-size: 28px;
+      font-size: 27px;
     }
   }
   /*================================= starting of menu all nav tabs ===================*/
@@ -515,9 +484,9 @@
         height: 35px;
         li {
           padding: 0 10px;
+          font-size: 20px;
+          letter-spacing: 0px;
           line-height: 35px;
-          font-size: 18px;
-          letter-spacing: 1px;
         }
       }
     }
@@ -537,44 +506,56 @@
             .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px;
-
-              .top_span1 {
+              .sub_second{
                 position: relative;
-                right: -17px;
+                left: 15px;
               }
-              .top_span2 {
+              .pizza_span{
                 position: relative;
-                right: -26px;
-              }
-              .top_span3 {
+                right: 8px;
+                }
+              .pizza_top_second{
                 position: relative;
-                right: 4px;
+                right: -19px;
               }
-
-              .top_span3 {
+              .pizza_second{
                 position: relative;
-                right: 4x;
-              }
-              .top_span4 {
-                position: relative;
-                right: -30px;
-              }
-              .top_span5 {
-                position: relative;
-                right: -29px;
-              }
+                right: -9px;
+                }
 
               p {
                 font-size: 13px;
                 padding: 0 5px;
-              }
+                }
               span {
                 font-size: 13px;
                 text-align: right;
               }
-              .top_span {
-                position: absolute;
-                right: 5px;
+              .grill {
+                padding: 0;
+                .grill_span {
+                  position: absolute;
+                  right: 20px;
+                }
+                .grill_second{
+                  position: relative;
+                  left: -1px;
+                }
+
+              }
+              .fries {
+                padding: 0;
+                .fries_span {
+                  position: relative;
+                  right: 9px;
+                }
+              }
+              .drink {
+                padding: 0;
+                .drink_span {
+                  position: relative;
+                  right: 9px;
+                }
               }
             }
             h2 {
@@ -609,36 +590,65 @@
                 padding-top: 0;
               }
               p {
-                font-size: 15px;
+                font-size: 16px;
                 padding-top: 2px;
               }
-              .mid_span {
-                margin-left: 4px;
-              }
+
               span {
-                font-size: 13px;
+                font-size: 14px;
                 padding-top: 3px;
                 font-weight: bold;
                 color: $price2_color;
               }
-              .right_span {
-                position: absolute;
-                right: 4px;
-              }
 
-              .pizza_span {
-                position: absolute;
-                right: -14px;
-                padding-left: 5px;
-              }
-              .pizza_span2 {
-                right: -16px;
-              }
               .num_span {
                 color: $price_color;
               }
+
+              .grill2 {
+
+                .grill_span2 {
+                  position: relative;
+                  left: -3px;
+                }
+                .grill_second2{
+                  position: relative;
+                  left: 20px;
+                }
+              }
+
+              .fries1 {
+                padding: 0;
+                .fries_span1 {
+                  position: relative;
+                  right: 9px;
+                }
+              }
             }
 
+            .drink1 {
+              padding: 0;
+              .drink_span1 {
+                position: relative;
+                right: 9px;
+              }
+            }
+            .pizza_second2{
+              position: relative;
+              right: -17px;
+            }
+            .pizza_second2_2{
+              position: relative;
+              right: -26px;
+            }
+            .side_second{
+              position: relative;
+              left: 28px;
+            }
+            .sub_second2{
+              position: relative;
+              left: 28px;
+            }
             .hr {
               width: 70%;
               margin-bottom: 8px;

@@ -1103,38 +1103,16 @@ header {
             padding: 30px 0; }
             .menu_all .menu_content .my-container .content .menu-m .top_item {
               padding: 4px 30px 4px 20px;
-              margin: 0 4px;
-              /*  .top_span5 {
-                position: relative;
-                right: -29px;
-              } */ }
+              margin: 0 4px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item .pizza_span {
                 position: relative;
                 right: 8px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span1 {
-                position: relative;
-                right: -17px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span2 {
-                position: relative;
-                right: -26px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span3 {
-                position: relative;
-                right: 4px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span3 {
-                position: relative;
-                right: 4x; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span4 {
-                position: relative;
-                right: -30px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item p {
                 font-size: 13px;
                 padding: 0 5px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item span {
                 font-size: 13px;
                 text-align: right; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span {
-                position: absolute;
-                right: 11px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item .grill {
                 padding: 0; }
                 .menu_all .menu_content .my-container .content .menu-m .top_item .grill .grill_span {
@@ -1176,8 +1154,6 @@ header {
               .menu_all .menu_content .my-container .content .menu-m .menu-item p {
                 font-size: 15px;
                 padding-top: 2px; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .mid_span {
-                margin-left: 4px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item span {
                 font-size: 13px;
                 padding-top: 3px;
@@ -1214,7 +1190,7 @@ header {
     .burg-intro h2,
     .pizza-intro h2 {
       margin-top: 20px;
-      font-size: 28px; }
+      font-size: 27px; }
 
   /*================================= starting of menu all nav tabs ===================*/
   .menu_all {
@@ -1223,9 +1199,9 @@ header {
       height: 35px; }
       .menu_all .menu_nav ul li {
         padding: 0 10px;
-        line-height: 35px;
-        font-size: 18px;
-        letter-spacing: 1px; }
+        font-size: 20px;
+        letter-spacing: 0px;
+        line-height: 35px; }
     .menu_all .menu_content {
       margin: 0 auto;
       background-color: #f4f4f4; }
@@ -1238,33 +1214,42 @@ header {
             .menu_all .menu_content .my-container .content .menu-m .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span1 {
+              .menu_all .menu_content .my-container .content .menu-m .top_item .sub_second {
                 position: relative;
-                right: -17px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span2 {
+                left: 15px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .pizza_span {
                 position: relative;
-                right: -26px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span3 {
+                right: 8px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .pizza_top_second {
                 position: relative;
-                right: 4px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span3 {
+                right: -19px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .pizza_second {
                 position: relative;
-                right: 4x; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span4 {
-                position: relative;
-                right: -30px; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span5 {
-                position: relative;
-                right: -29px; }
+                right: -9px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item p {
                 font-size: 13px;
                 padding: 0 5px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item span {
                 font-size: 13px;
                 text-align: right; }
-              .menu_all .menu_content .my-container .content .menu-m .top_item .top_span {
-                position: absolute;
-                right: 5px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .grill {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .grill .grill_span {
+                  position: absolute;
+                  right: 20px; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .grill .grill_second {
+                  position: relative;
+                  left: -1px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .fries {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .fries .fries_span {
+                  position: relative;
+                  right: 9px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .drink {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .drink .drink_span {
+                  position: relative;
+                  right: 9px; }
             .menu_all .menu_content .my-container .content .menu-m h2 {
               font-size: 20px;
               margin-bottom: 15px; }
@@ -1289,26 +1274,43 @@ header {
                 margin-bottom: 4px;
                 padding-top: 0; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item p {
-                font-size: 15px;
+                font-size: 16px;
                 padding-top: 2px; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .mid_span {
-                margin-left: 4px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item span {
-                font-size: 13px;
+                font-size: 14px;
                 padding-top: 3px;
                 font-weight: bold;
                 color: #3f3d3d; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .right_span {
-                position: absolute;
-                right: 4px; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .pizza_span {
-                position: absolute;
-                right: -14px;
-                padding-left: 5px; }
-              .menu_all .menu_content .my-container .content .menu-m .menu-item .pizza_span2 {
-                right: -16px; }
               .menu_all .menu_content .my-container .content .menu-m .menu-item .num_span {
                 color: #9c4343; }
+              .menu_all .menu_content .my-container .content .menu-m .menu-item .grill2 .grill_span2 {
+                position: relative;
+                left: -3px; }
+              .menu_all .menu_content .my-container .content .menu-m .menu-item .grill2 .grill_second2 {
+                position: relative;
+                left: 20px; }
+              .menu_all .menu_content .my-container .content .menu-m .menu-item .fries1 {
+                padding: 0; }
+                .menu_all .menu_content .my-container .content .menu-m .menu-item .fries1 .fries_span1 {
+                  position: relative;
+                  right: 9px; }
+            .menu_all .menu_content .my-container .content .menu-m .drink1 {
+              padding: 0; }
+              .menu_all .menu_content .my-container .content .menu-m .drink1 .drink_span1 {
+                position: relative;
+                right: 9px; }
+            .menu_all .menu_content .my-container .content .menu-m .pizza_second2 {
+              position: relative;
+              right: -17px; }
+            .menu_all .menu_content .my-container .content .menu-m .pizza_second2_2 {
+              position: relative;
+              right: -26px; }
+            .menu_all .menu_content .my-container .content .menu-m .side_second {
+              position: relative;
+              left: 28px; }
+            .menu_all .menu_content .my-container .content .menu-m .sub_second2 {
+              position: relative;
+              left: 28px; }
             .menu_all .menu_content .my-container .content .menu-m .hr {
               width: 70%;
               margin-bottom: 8px; } }

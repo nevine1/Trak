@@ -167,8 +167,8 @@ include "includes/header.php";
                   <div class=" col-md-8 col-sm-8 col-8">
                     <p class=" ">All served with May, Lettuce, Tomato and Cheese </p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill"><span class="float-right   top_span grill_span">6"</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill"><span class="float-right  top_span grill_span">12"</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill "><span class="float-right  grill_span grill_second">6"</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill"><span class="float-right  grill_span">12"</span></div>
                 </div>
               </div>
             </div>
@@ -180,8 +180,8 @@ include "includes/header.php";
                     <h3>Steak Philly </h3>
                     <p>Grilled Steak, Onion, G.Pepper, Provolone</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class=" float_right grill_span2  right_span">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float_right grill_span2 right_span">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 ">7.99</span></div>
 
                 </div>
               </div>
@@ -196,8 +196,8 @@ include "includes/header.php";
                     <h3>Steak Philly </h3>
                     <p>Grilled Steak, Onion, G.Pepper, Swiss</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  right_span ">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  right_span ">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  ">4.69</span></div>
 
                 </div>
               </div>
@@ -212,8 +212,8 @@ include "includes/header.php";
                     <h3>Chicken Teriyake </h3>
                     <p>Grilled Chicken, Onion, G.Pepper, Swiss</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  right_span ">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 right_span ">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 ">7.99</span></div>
                 </div>
               </div>
             </div>
@@ -227,8 +227,8 @@ include "includes/header.php";
                     <h3>Chicken Buffalo </h3>
                     <p>Grilled Chicken, Onion, G.Pepper, Swiss</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  right_span ">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right  grill_span2 right_span ">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right  grill_span2 ">7.99</span></div>
                 </div>
               </div>
             </div>
@@ -242,8 +242,8 @@ include "includes/header.php";
                     <h3>Chicken Bacon Ranch </h3>
                     <p>Grilled Chicken, Bacon, Onion, G.Pepper, Swiss</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2  right_span ">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 right_span ">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 ">7.99</span></div>
                 </div>
               </div>
             </div>
@@ -257,8 +257,8 @@ include "includes/header.php";
                     <h3>Turkey Philly </h3>
                     <p>Grilled Turkey, Onion, G.Pepper, Swiss</p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right  grill_span2 right_span ">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 right_span ">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right  grill_span2 grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2"><span class="float-right grill_span2 ">7.99</span></div>
                 </div>
               </div>
             </div>
@@ -272,8 +272,8 @@ include "includes/header.php";
                     <h3>Grilled Veggie </h3>
                     <p>Grilled Onion, Bacon, G.Pepper, Black Olive, Swiss </p>
                   </div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2 "><span class="float-right grill_span2  right_span ">4.69</span></div>
-                  <div class="col-md-2 col-sm-2 col-2 grill2 "><span class="float-right grill_span2  right_span ">7.99</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2 "><span class="float-right grill_span2 grill_second2">4.69</span></div>
+                  <div class="col-md-2 col-sm-2 col-2 grill2 "><span class="float-right grill_span2 ">7.99</span></div>
                 </div>
               </div>
             </div>
@@ -291,18 +291,7 @@ include "includes/header.php";
         <div class="menu-m">
           <h2 class="text-center">Trak's <span class="heading-span">Gyro's</span> Menu </h2>
           <div class="row">
-            <!-- <div class="col-md-12 col-sm-12">
 
-              <div class="top_item">
-                <div class="row">
-                  <div class="col-md-10">
-                    <p class=" ">All served with May, Lettuce, Tomato and Cheese </p>
-                  </div>
-                  <div class="col-md-1"><span class=" ">6"REG.</span></div>
-                  <div class="col-md-1"><span class=" ">12"LAR.</span></div>
-                </div>
-              </div>
-            </div> -->
 
             <div class="col-md-12 col-sm-12">
               <div class="menu-item menu_item-1">
