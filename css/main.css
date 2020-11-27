@@ -1214,6 +1214,9 @@ header {
             .menu_all .menu_content .my-container .content .menu-m .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px; }
+              .menu_all .menu_content .my-container .content .menu-m .top_item .cake_second {
+                position: relative;
+                right: 9px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item .sub_second {
                 position: relative;
                 left: 15px; }
@@ -1244,12 +1247,18 @@ header {
                 padding: 0; }
                 .menu_all .menu_content .my-container .content .menu-m .top_item .fries .fries_span {
                   position: relative;
-                  right: 9px; }
+                  right: 16px; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .fries .fries_span_1 {
+                  position: relative;
+                  left: 10px; }
               .menu_all .menu_content .my-container .content .menu-m .top_item .drink {
                 padding: 0; }
                 .menu_all .menu_content .my-container .content .menu-m .top_item .drink .drink_span {
                   position: relative;
-                  right: 9px; }
+                  right: 14px; }
+                .menu_all .menu_content .my-container .content .menu-m .top_item .drink .drink_span_1 {
+                  position: relative;
+                  left: 14px; }
             .menu_all .menu_content .my-container .content .menu-m h2 {
               font-size: 20px;
               margin-bottom: 15px; }
@@ -1294,11 +1303,17 @@ header {
                 .menu_all .menu_content .my-container .content .menu-m .menu-item .fries1 .fries_span1 {
                   position: relative;
                   right: 9px; }
+                .menu_all .menu_content .my-container .content .menu-m .menu-item .fries1 .fries_span1_1 {
+                  position: relative;
+                  left: 9px; }
             .menu_all .menu_content .my-container .content .menu-m .drink1 {
               padding: 0; }
               .menu_all .menu_content .my-container .content .menu-m .drink1 .drink_span1 {
                 position: relative;
-                right: 9px; }
+                right: 12px; }
+              .menu_all .menu_content .my-container .content .menu-m .drink1 .drink_span1_1 {
+                position: relative;
+                left: 10px; }
             .menu_all .menu_content .my-container .content .menu-m .pizza_second2 {
               position: relative;
               right: -17px; }
@@ -1310,7 +1325,7 @@ header {
               left: 28px; }
             .menu_all .menu_content .my-container .content .menu-m .sub_second2 {
               position: relative;
-              left: 28px; }
+              left: 22px; }
             .menu_all .menu_content .my-container .content .menu-m .hr {
               width: 70%;
               margin-bottom: 8px; } }

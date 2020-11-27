@@ -40,7 +40,7 @@ include "includes/header.php";
                                     <div class="col-md-10 col-sm-10 col-10">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right    ">1pc</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   cake_second ">1pc</span></div>
 
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ include "includes/header.php";
                                     <div class="col-md-8 col-sm-8 col-8">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 drink"><span class="float-right drink_span  ">REG.</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink"><span class="float-right drink_span drink_span_1  ">REG.</span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 drink"><span class="float-right drink_span  ">LRG</span></div>
 
@@ -138,7 +138,7 @@ include "includes/header.php";
                                         <h3>Lemonade</h3>
                                         <p>Regular, Strawberry, Raspberry</p>
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  ">1.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  drink_span1_1">1.99 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right   drink_span1 ">2.69 </span></div>
                                 </div>
@@ -154,7 +154,7 @@ include "includes/header.php";
                                         <h3>Kool-Aid</h3>
                                         <p>Hawailan Punch, Berry Blue</p>
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  ">1.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  drink_span1_1">1.99 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right drink_span1 ">2.69 </span></div>
                                 </div>
@@ -170,7 +170,7 @@ include "includes/header.php";
                                         <h3>20 OZ Soda </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  ">1.79 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right  drink_span1  drink_span1_1">1.79 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 drink1"><span class=" "></span></div>
                                 </div>
@@ -187,7 +187,7 @@ include "includes/header.php";
                                         <h3>2 Liter Soda </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right   drink_span1 ">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 drink1"><span class="float-right   drink_span1 drink_span1_1">2.99 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 drink1"><span class=" "></span></div>
                                 </div>
@@ -213,7 +213,7 @@ include "includes/header.php";
                                     <div class="col-md-8 col-sm-8 col-8">
                                         <!-- <p class=" ">All served with May, Lettuce, Tomato and Cheese </p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right fries_span    ">REG.</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right fries_span    fries_span_1">REG.</span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 fries"><span class="float-right  fries_span   ">LRG</span></div>
 
@@ -228,7 +228,7 @@ include "includes/header.php";
                                         <h3>Fries</h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Provolone</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1   ">2.29 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1  fries_span1_1 ">2.29 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1   ">2.99 </span></div>
                                 </div>
@@ -244,7 +244,7 @@ include "includes/header.php";
                                         <h3>Cheese Fries </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 fires1"><span class="float-right   fries_span1">2.69 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right   fries_span1 fries_span1_1">2.69 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1 ">3.99 </span></div>
                                 </div>
@@ -260,7 +260,7 @@ include "includes/header.php";
                                         <h3>Chili Fries </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right   fries_span1">2.69 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right   fries_span1 fries_span1_1" >2.69 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1 ">3.99 </span></div>
                                 </div>
@@ -277,7 +277,7 @@ include "includes/header.php";
                                         <h3>Chili Cheese Fries </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right  fries_span1 ">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right  fries_span1 fries_span1_1 ">2.99 </span></div>
 
                                     <div class="col-md-2 col-sm-2 col-2 fries1"><span class="float-right fries_span1">4.99 </span></div>
                                 </div>

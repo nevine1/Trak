@@ -20,7 +20,7 @@ include "includes/header.php";
         <ul class="list-unstyled">
             <li id="sides">Sides</li>
             <li id="panin" class="inactive">Panin </li>
-            <li id="subs" class="inactive">SUBS</li>
+            <li id="subs" class="inactive">Subs</li>
 
         </ul>
     </nav>

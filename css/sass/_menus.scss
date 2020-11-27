@@ -506,6 +506,10 @@
             .top_item {
               padding: 4px 30px 4px 20px;
               margin: 0 4px;
+              .cake_second{
+                position: relative;
+                right: 9px;
+              }
               .sub_second{
                 position: relative;
                 left: 15px;
@@ -547,14 +551,22 @@
                 padding: 0;
                 .fries_span {
                   position: relative;
-                  right: 9px;
+                  right: 16px;
+                }
+                .fries_span_1{
+                  position: relative;
+                  left: 10px;
                 }
               }
               .drink {
                 padding: 0;
                 .drink_span {
                   position: relative;
-                  right: 9px;
+                  right: 14px;
+                }
+                .drink_span_1{
+                  position: relative;
+                  left: 14px;
                 }
               }
             }
@@ -623,6 +635,10 @@
                   position: relative;
                   right: 9px;
                 }
+                .fries_span1_1{
+                  position: relative;
+                  left: 9px;
+                }
               }
             }
 
@@ -630,7 +646,11 @@
               padding: 0;
               .drink_span1 {
                 position: relative;
-                right: 9px;
+                right: 12px;
+              }
+              .drink_span1_1{
+                position:relative;
+                left: 10px;
               }
             }
             .pizza_second2{
@@ -647,7 +667,7 @@
             }
             .sub_second2{
               position: relative;
-              left: 28px;
+              left: 22px;
             }
             .hr {
               width: 70%;
