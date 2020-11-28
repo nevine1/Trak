@@ -96,13 +96,15 @@
 
   h3 {
     margin: 10px;
-    font-size: 45px;
+    font-size: 39px;
     font-weight: 600;
-
+    color: $item_head_color;
+/*  position: relative;
     &::after {
       content: "";
+      position: absolute;
       display: block;
-      width: 100%;
+      width: 50%;
       height: 4px;
       background: linear-gradient(to right, $blue1, #00aae7);
       transition: all 0.5s;
@@ -110,16 +112,16 @@
     }
     &:hover::after {
       transform: scale(1);
-    }
+    }*/
   }
 
   p {
     width: 70%;
-    font-size: 22px;
+    font-size: 24px;
     position: static;
     color: $p_color;
     margin: 10px auto;
-    line-height: 38px;
+    line-height: 40px;
 
     &::before {
       content: open-quote;
@@ -159,7 +161,7 @@
   }
   p {
     color: $p_color;
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px;
   }
   .btn {
@@ -265,7 +267,7 @@
   p {
     padding: 10px;
     color: $p_color;
-    font-size: 21px;
+    font-size: 24px;
   }
   .menu_1 {
     padding: 2px;

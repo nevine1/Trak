@@ -284,6 +284,16 @@ require "includes/header.php";
 <!-- ending of reservation section -->
 
 
+<!-- https: //www.splitzgrill.com/menu
+
+https://theburgerspriest.com/
+
+https://www.intechnic.com/blog/best-restaurant-website-design-inspirations/
+
+https://store.lamarchaberkeley.com/
+
+-->
+
 <?php
 
 require "includes/footer.php";
@@ -311,12 +321,3 @@ require "includes/footer.php";
     });
 </script>
 
-/* https: //www.splitzgrill.com/menu
-
-https://theburgerspriest.com/
-
-https://www.intechnic.com/blog/best-restaurant-website-design-inspirations/
-
-https://store.lamarchaberkeley.com/
-
-*/

@@ -24,9 +24,9 @@
 
 
 <!-- starting of reservation  -->
-<div classs="reserve-deliver">
+<!--<div classs="reserve-deliver">
     <p>loremlorem loremaaaaaaaaaaaaaaaa</p>
-</div> 
+</div> -->
 <!-- ending of reservation -->
 
 <script src="js/jquery-3.5.1.min.js"></script>
