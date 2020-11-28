@@ -179,7 +179,7 @@ include "includes/header.php";
 
                                     </div>
                                     <div class="col-md-2 col-sm-2 col-2"><span class="float-right   sub_second">6"</span></div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   ">12"</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   sub_third">12"</span></div>
                                 </div>
                             </div>
                         </div>

@@ -53,7 +53,7 @@ include "includes/header.php";
                                         <h3> Chocolate Cake </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Provolone</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   ">2.99</span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   cake_second2">2.99</span></div>
 
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ include "includes/header.php";
                                         <h3>Raspberry Cake </h3>
                                         <!-- <p>Grilled Steak, Onion, G.Pepper, Swiss</p> -->
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   " >2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   cake_second2" >2.99 </span></div>
 
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ include "includes/header.php";
                                         <h3>Carrot Cake </h3>
 
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   ">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   cake_second2">2.99 </span></div>
 
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ include "includes/header.php";
                                         <h3>CheeseCake </h3>
 
                                     </div>
-                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   ">2.99 </span></div>
+                                    <div class="col-md-2 col-sm-2 col-2"><span class="float-right   cake_second2">2.99 </span></div>
 
                                 </div>
                             </div>
@@ -201,10 +201,10 @@ include "includes/header.php";
             <!-------------------------- ending of italian dinner menu -------------------------------->
 
 
-            <!-------------------------- starting of gyro menu -------------------------------->
+            <!-------------------------- starting of Fries menu -------------------------------->
             <div id="fries-content" class="content">
                 <div class="menu-m">
-                    <h2 class="text-center">Trak's Fries'<span class="heading-span">Fries' </span> Menu </h2>
+                    <h2 class="text-center">Trak's <span class="heading-span">Fries'    </span> Menu </h2>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
 

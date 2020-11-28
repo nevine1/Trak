@@ -305,6 +305,8 @@
 } */
 
 //============================================ media query  for all devices ===============================================
+//============================================ media query  320px =================================
+@media (max-width: 320px){}
 
 //============================================ media query  387px =================================
 @media (max-width: 387px) {
@@ -681,9 +683,231 @@
 }
 
 //====================== Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-}
+@media (max-width: 768px) {
+  body {
+    line-height: normal;
+  }
+  .menu-intro,
+  .burg-intro,
+  .pizza-intro {
+    height: 70vh;
+    h2 {
+      margin-top: 20px;
+      font-size: 33px;
+    }
+  }
+  /*================================= starting of menu all nav tabs ===================*/
+  .menu_all {
+    .menu_nav {
+      ul {
+        height: 35px;
+        li {
+          padding: 0 10px;
+          font-size: 21px;
+          letter-spacing: 0px;
+          line-height: 35px;
+        }
+      }
+    }
+    /* ======================ending of nav tabs menu ===============================*/
+    .menu_content {
+      margin: 0 auto;
+      background-color: $back1;
 
+      .my-container {
+        padding: 0;
+
+        .content {
+          width: 100%;
+
+          .menu-m {
+            padding: 30px 0;
+            .top_item {
+              padding: 4px 30px 4px 20px;
+              margin: 0 4px;
+              .sub_third{
+                position: relative;
+                right: 6px;
+                }
+
+
+              .cake_second{
+                position: relative;
+                right: 10px;
+              }
+              .sub_second{
+                position: relative;
+                left: 33px;
+              }
+              .pizza_span{
+                position: relative;
+                right: 11px;
+              }
+              .pizza_top_second{
+                position: relative;
+                left: 55px;
+              }
+              .pizza_second{
+                position: relative;
+                left: 26px;
+              }
+
+              p {
+                font-size: 13px;
+                padding: 0 5px;
+              }
+              span {
+                font-size: 13px;
+                text-align: right;
+              }
+              .grill {
+                padding: 0;
+                .grill_span {
+                  position: absolute;
+                  right: 20px;
+                }
+                .grill_second{
+                  position: relative;
+                  left: -1px;
+                }
+
+              }
+              .fries {
+                padding: 0;
+                .fries_span {
+                  position: relative;
+                  right: 21px;
+                }
+                .fries_span_1{
+                  position: relative;
+                  left: 23px;
+                }
+              }
+              .drink {
+                padding: 0;
+                .drink_span {
+                  position: relative;
+                  right: 19px;
+                }
+                .drink_span_1{
+                  position: relative;
+                  left: 25px;
+                }
+              }
+            }
+            h2 {
+              font-size: 23px;
+              margin-bottom: 15px;
+              .heading-span {
+                color: $menu_nav2;
+                font-style: italic;
+              }
+            }
+
+            .menu-item {
+              padding: 10px 15px;
+              border-radius: 5px;
+              .side_span3 {
+                padding-right: 0;
+                .side_span2 {
+                  position: relative;
+                  right: -14px;
+                }
+              }
+              .cake_second2{
+                position: relative;
+                right: 4px;
+              }
+              .side_span1 {
+                position: relative;
+                right: -30px;
+              }
+              .side_span4 {
+                padding-right: 5px;
+              }
+              h3 {
+                font-size: 17px;
+                margin-bottom: 4px;
+                padding-top: 0;
+              }
+              p {
+                font-size: 16px;
+                padding-top: 2px;
+              }
+
+              span {
+                font-size: 14px;
+                padding-top: 3px;
+                font-weight: bold;
+                color: $price2_color;
+              }
+
+              .num_span {
+                color: $price_color;
+              }
+
+              .grill2 {
+
+                .grill_span2 {
+                  position: relative;
+                  left: -3px;
+                }
+                .grill_second2{
+                  position: relative;
+                  left: 20px;
+                }
+              }
+
+              .fries1 {
+                padding: 0;
+                .fries_span1 {
+                  position: relative;
+                  right: 17px;
+                }
+                .fries_span1_1{
+                  position: relative;
+                  left: 21px;
+                }
+              }
+            }
+
+            .drink1 {
+              padding: 0;
+              .drink_span1 {
+                position: relative;
+                right: 12px;
+              }
+              .drink_span1_1{
+                position:relative;
+                left: 23px;
+              }
+            }
+            .pizza_second2{
+              position: relative;
+              left: 35px;
+            }
+            .pizza_second2_2{
+              position: relative;
+              left: 64px;
+            }
+            .side_second{
+              position: relative;
+              left: 37px;
+            }
+            .sub_second2{
+              position: relative;
+              left: 40px;
+            }
+            .hr {
+              width: 70%;
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 //============================= Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 }
