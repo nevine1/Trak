@@ -20,10 +20,10 @@
 
   .btn {
     margin: 15px 10px;
-    padding: 5px 24px;
-    font-size: 18px;
+    padding: 9px 26px;
+    font-size: 20px;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 25px;
   }
   .btn-light {
     color: $blue1;
@@ -59,25 +59,7 @@
   } */
 }
 
-/* @keyframes anim {
-  0% {
-    transform: translateX(-200px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
 
-@keyframes leftToRight {
-  0% {
-    opacity: 0;
-    transform: translateX(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-} */
 
 @keyframes rightToLeft {
   0% {
@@ -99,20 +81,7 @@
     font-size: 39px;
     font-weight: 600;
     color: $item_head_color;
-/*  position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      display: block;
-      width: 50%;
-      height: 4px;
-      background: linear-gradient(to right, $blue1, #00aae7);
-      transition: all 0.5s;
-      transform: scale(0.5);
-    }
-    &:hover::after {
-      transform: scale(1);
-    }*/
+
   }
 
   p {
@@ -136,11 +105,11 @@
   }
 }
 
-.welcome {
+/* .welcome {
   background: #fff !important;
   padding: 40px 0 60px 0;
   h2 {
-    /* color: $color7; */
+    
     color: var(--main-color);
     padding-bottom: 10px;
     display: inline-block;
@@ -205,7 +174,7 @@
     }
   }
 }
-
+ */
 .gallery {
   background-color: $back1;
   padding: 60px;
@@ -554,6 +523,146 @@
 /*========================== max sizse 320px =================*/
 
 @media (max-width: 320px) {
+  .banner {
+   
+    height:  90vh;
+    .text1 {
+      
+      font-size: 26px;
+      margin-top: -30px;
+      margin-bottom: 20px;
+      
+    }
+  
+    .btn {
+      margin: 15px 10px;
+      padding: 5px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+    .btn-light {
+      color: $blue1;
+      border: 1px solid $blue1;
+      transition: all 0.5s ease;
+      &:hover {
+        background-color: $blue1;
+        color: $color_white;
+        border: 1px solid $color_white;
+      }
+    }
+    .btn-danger {
+      border: 1px solid $color_white;
+      transition: all 0.5s ease;
+      background-color: $blue1;
+      &:hover {
+        background-color: $color_white;
+        color: $blue1;
+        transition: all 0.5s ease;
+        border: 1px solid $blue1;
+      }
+    }
+    /*  .effect {
+      animation-name: leftToRight;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+    } */
+  
+    /* .effect2 {
+      animation-name: rightToLeft;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+    } */
+  }
+
+  .intro {
+    margin: 3px auto;
+    padding: 3px;
+  
+    h3 {
+      margin: 5px;
+      font-size: 25px;
+    }
+  
+    p {
+      width: 80%;
+      font-size: 18px;
+      margin: 5px auto;
+      line-height: 30px;
+  
+      &::before {
+        font-size: 22px; 
+      }
+      &::after {
+        font-size: 22x;
+      }
+    }
+  }
+  .home-menu {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+    h2 {
+      
+      font-size: 25px;
+    }
+  
+    p {
+      padding: 5px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .menu_1 {
+     
+      height: 180px;
+  
+      .home-menu1 {
+        
+        border-radius: 1px;
+        &:hover img {
+          transform: scale(1.09);
+        }
+        .overlay {
+         
+          h3 {
+            
+            margin: 6px auto;
+            font-size: 20px;
+            top: 20%;
+           
+          }
+          .btn {
+           
+            top: 65%;
+         
+           
+            padding: 10px 21px;
+            border-radius: 21px;
+          
+            font-size: 17px;
+            &:hover {
+              color: #fff;
+              background-color: $blue1;
+              border: 1px solid #fff;
+            }
+          }
+        }
+        &:hover .overlay {
+          opacity: 1;
+  
+          h3 {
+            animation: my_motion_1 1s;
+          }
+  
+          .btn {
+            animation: my_motion_2 1s;
+          }
+        }
+      }
+    }
+  }  
+  
 }
 
 /*========================== max sizse 320px =================*/

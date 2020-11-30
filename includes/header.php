@@ -95,7 +95,7 @@
 
 
     <!-- starting of page setting -->
-    <div class="setting change-div-color">
+   <!-- <div class="setting change-div-color">
 
         <div class="toggle_gear change-div-color">
             <i class="fa fa-gear"></i>
@@ -134,5 +134,5 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
     <!-- ending of page setting -->

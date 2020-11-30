@@ -19,7 +19,7 @@ require "includes/header.php";
                 <a href="" class="m-d-4 m-s-2 effect2 right-effect btn btn-danger w-hours" id="vena">Working Hour</a>
             </div>
         </div>
-    </div>+
+    </div>
 </section>
 
 <!--ending of banner-->

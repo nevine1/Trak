@@ -64,18 +64,17 @@ header {
       color: #fff; }
       header .navbar .navbar-brand:hover {
         color: #fff; }
-    header .navbar button {
+    header .navbar .navbar-toggler {
       color: #fff;
-      font-size: 30px;
       border: 1px solid #fff; }
-      header .navbar button span {
+      header .navbar .navbar-toggler span {
         color: #fff; }
-      header .navbar button.navbar-toggler {
+      header .navbar .navbar-toggler.navbar-toggler {
         background-color: #fff; }
     header .navbar .navbar-nav li .nav-link {
       padding: 10px 15px;
       position: relative;
-      font-size: 20px;
+      font-size: 21px;
       color: #fff;
       transition: all 0.5s ease; }
       header .navbar .navbar-nav li .nav-link .navbar-icon {
@@ -154,23 +153,25 @@ header {
 /*========================== max size 320px =================*/
 @media (max-width: 320px) {
   header .navbar .navbar-brand {
-    font-size: 22px; }
-  header .navbar button {
-    font-size: 20px;
-    margin-bottom: 5px; }
-    header .navbar button span {
+    font-size: 19px; }
+  header .navbar .navbar-toggler {
+    font-size: 20px; }
+    header .navbar .navbar-toggler span {
       color: #fff; }
-    header .navbar button.navbar-toggler {
+    header .navbar .navbar-toggler.navbar-toggler {
       background-color: #fff; }
   header .navbar .navbar-nav li .nav-link {
-    padding: 5px 15px; }
+    padding: 10px 15px;
+    position: relative;
+    font-size: 81px;
+    color: #fff;
+    transition: all 0.5s ease; }
+    header .navbar .navbar-nav li .nav-link .navbar-icon {
+      padding-right: 7px; }
   header .navbar .navbar-nav li.dropdown .dropdown-menu {
     background-color: #efefef; }
     header .navbar .navbar-nav li.dropdown .dropdown-menu .dropdown-item {
       color: #ef0000; }
-      header .navbar .navbar-nav li.dropdown .dropdown-menu .dropdown-item:hover, header .navbar .navbar-nav li.dropdown .dropdown-menu .dropdown-item:focus {
-        background-color: #f4f4f4;
-        color: #0fabbc; }
 
   /* ======================  starting of popup menu for keeep in touch  ========================= */
   .popup-contact {
@@ -306,15 +307,13 @@ header {
 /*========================== max sizse 768px =================*/
 @media (max-width: 768px) {
   header .navbar .navbar-brand {
-    font-size: 26px; }
-  header .navbar button {
+    font-size: 28px; }
+  header .navbar .navbar-toggler {
     font-size: 27px;
     margin-bottom: 5px;
     margin-top: 5px; }
-    header .navbar button span {
+    header .navbar .navbar-toggler span {
       color: #fff; }
-    header .navbar button.navbar-toggler {
-      background-color: #fff; }
   header .navbar .navbar-nav li .nav-link {
     padding: 8px 15px; }
   header .navbar .navbar-nav li.dropdown .dropdown-menu {
@@ -461,7 +460,7 @@ header {
 /*========================== max sizse 1024px =================*/
 @media (max-width: 1024px) {
   header .navbar .navbar-brand {
-    font-size: 29px; }
+    font-size: 30px; }
   header .navbar button {
     font-size: 28px;
     margin-bottom: 5px;
@@ -540,7 +539,7 @@ header {
 /*========================== max sizse 1200px =================*/
 @media (max-width: 1200px) {
   header .navbar .navbar-brand {
-    font-size: 29px; }
+    font-size: 32px; }
   header .navbar button {
     font-size: 28px;
     margin-bottom: 5px;
@@ -748,10 +747,10 @@ header {
     font-family: "Bree Serif", serif; }
   .banner .btn {
     margin: 15px 10px;
-    padding: 5px 24px;
-    font-size: 18px;
+    padding: 9px 26px;
+    font-size: 20px;
     font-weight: bold;
-    border-radius: 20px; }
+    border-radius: 25px; }
   .banner .btn-light {
     color: #0fabbc;
     border: 1px solid #0fabbc;
@@ -770,25 +769,6 @@ header {
       transition: all 0.5s ease;
       border: 1px solid #0fabbc; }
 
-/* @keyframes anim {
-  0% {
-    transform: translateX(-200px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes leftToRight {
-  0% {
-    opacity: 0;
-    transform: translateX(-200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-} */
 @keyframes rightToLeft {
   0% {
     opacity: 0;
@@ -803,21 +783,7 @@ header {
     margin: 10px;
     font-size: 39px;
     font-weight: 600;
-    color: #a32a2a;
-    /*  position: relative;
-        &::after {
-          content: "";
-          position: absolute;
-          display: block;
-          width: 50%;
-          height: 4px;
-          background: linear-gradient(to right, $blue1, #00aae7);
-          transition: all 0.5s;
-          transform: scale(0.5);
-        }
-        &:hover::after {
-          transform: scale(1);
-        }*/ }
+    color: #a32a2a; }
   .intro p {
     width: 70%;
     font-size: 24px;
@@ -834,61 +800,76 @@ header {
       font-size: 40px;
       color: #928b8b; }
 
-.welcome {
+/* .welcome {
   background: #fff !important;
-  padding: 40px 0 60px 0; }
-  .welcome h2 {
-    /* color: $color7; */
+  padding: 40px 0 60px 0;
+  h2 {
+    
     color: var(--main-color);
     padding-bottom: 10px;
-    display: inline-block; }
-    .welcome h2::after {
+    display: inline-block;
+
+    &::after {
       content: "";
       display: block;
       width: 100%;
       margin-bottom: 5px;
       height: 4px;
-      background: linear-gradient(to right, #00aae7, #0fabbc);
+      background: linear-gradient(to right, #00aae7, $blue1);
       transition: all 0.5s;
-      transform: scale(1); }
-    .welcome h2:hover::after {
-      transform: scale(0.5); }
-  .welcome p {
-    color: #433e3e;
+      transform: scale(1);
+    }
+    &:hover::after {
+      transform: scale(0.5);
+    }
+  }
+  p {
+    color: $p_color;
     font-size: 24px;
-    padding: 10px; }
-  .welcome .btn {
+    padding: 10px;
+  }
+  .btn {
     margin: 15px;
-    transition: all 0.5s ease-in; }
-  .welcome .wel {
+    transition: all 0.5s ease-in;
+  }
+  .wel {
     padding: 8px;
     background-color: #ffe0f7;
     border-radius: 5px;
     margin: 15px 12px 20px 12px;
     box-shadow: 3px 7px 4px 4px rgba(0, 0, 0, 0.11);
-    transition: all 0.5s ease-in; }
-    .welcome .wel h4 {
+    transition: all 0.5s ease-in;
+
+    h4 {
       font-size: 24px;
       font-weight: bold;
       margin-top: 20px;
-      color: #00aae7; }
-    .welcome .wel p {
+      color: $color7;
+    }
+
+    p {
       padding: 5px 20px;
       margin: 0 2px;
-      color: #433e3e; }
-    .welcome .wel .btn {
+      color: $p_color;
+    }
+    .btn {
       padding: 5px 22px;
       border-radius: 20px;
       background-color: #fff;
-      color: #00aae7;
-      border: 1px solid #00aae7;
+      color: $color7;
+      border: 1px solid $color7;
       font-weight: bold;
-      transition: all 0.5s; }
-      .welcome .wel .btn:hover {
-        background-color: #00aae7;
-        color: #fff;
-        border: 1px solid #00aae7; }
+      transition: all 0.5s;
 
+      &:hover {
+        background-color: $color7;
+        color: #fff;
+        border: 1px solid $color7;
+      }
+    }
+  }
+}
+ */
 .gallery {
   background-color: #f4f4f4;
   padding: 60px; }
@@ -1153,6 +1134,97 @@ header {
     top: 65%; } }
 /*===================================== media queries  ==================================*/
 /*========================== max sizse 320px =================*/
+@media (max-width: 320px) {
+  .banner {
+    height: 90vh;
+    /*  .effect {
+      animation-name: leftToRight;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+    } */
+    /* .effect2 {
+      animation-name: rightToLeft;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+    } */ }
+    .banner .text1 {
+      font-size: 26px;
+      margin-top: -30px;
+      margin-bottom: 20px; }
+    .banner .btn {
+      margin: 15px 10px;
+      padding: 5px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 20px; }
+    .banner .btn-light {
+      color: #0fabbc;
+      border: 1px solid #0fabbc;
+      transition: all 0.5s ease; }
+      .banner .btn-light:hover {
+        background-color: #0fabbc;
+        color: #dae0e5;
+        border: 1px solid #dae0e5; }
+    .banner .btn-danger {
+      border: 1px solid #dae0e5;
+      transition: all 0.5s ease;
+      background-color: #0fabbc; }
+      .banner .btn-danger:hover {
+        background-color: #dae0e5;
+        color: #0fabbc;
+        transition: all 0.5s ease;
+        border: 1px solid #0fabbc; }
+
+  .intro {
+    margin: 3px auto;
+    padding: 3px; }
+    .intro h3 {
+      margin: 5px;
+      font-size: 25px; }
+    .intro p {
+      width: 80%;
+      font-size: 18px;
+      margin: 5px auto;
+      line-height: 30px; }
+      .intro p::before {
+        font-size: 22px; }
+      .intro p::after {
+        font-size: 22x; }
+
+  .home-menu {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .home-menu h2 {
+      font-size: 25px; }
+    .home-menu p {
+      padding: 5px;
+      font-size: 18px;
+      line-height: 30px; }
+    .home-menu .menu_1 {
+      height: 180px; }
+      .home-menu .menu_1 .home-menu1 {
+        border-radius: 1px; }
+        .home-menu .menu_1 .home-menu1:hover img {
+          transform: scale(1.09); }
+        .home-menu .menu_1 .home-menu1 .overlay h3 {
+          margin: 6px auto;
+          font-size: 20px;
+          top: 20%; }
+        .home-menu .menu_1 .home-menu1 .overlay .btn {
+          top: 65%;
+          padding: 10px 21px;
+          border-radius: 21px;
+          font-size: 17px; }
+          .home-menu .menu_1 .home-menu1 .overlay .btn:hover {
+            color: #fff;
+            background-color: #0fabbc;
+            border: 1px solid #fff; }
+        .home-menu .menu_1 .home-menu1:hover .overlay {
+          opacity: 1; }
+          .home-menu .menu_1 .home-menu1:hover .overlay h3 {
+            animation: my_motion_1 1s; }
+          .home-menu .menu_1 .home-menu1:hover .overlay .btn {
+            animation: my_motion_2 1s; } }
 /*========================== max sizse 320px =================*/
 @media (max-width: 480px) {
   .banner {
