@@ -105,82 +105,13 @@
   }
 }
 
-/* .welcome {
-  background: #fff !important;
-  padding: 40px 0 60px 0;
-  h2 {
-    
-    color: var(--main-color);
-    padding-bottom: 10px;
-    display: inline-block;
-
-    &::after {
-      content: "";
-      display: block;
-      width: 100%;
-      margin-bottom: 5px;
-      height: 4px;
-      background: linear-gradient(to right, #00aae7, $blue1);
-      transition: all 0.5s;
-      transform: scale(1);
-    }
-    &:hover::after {
-      transform: scale(0.5);
-    }
-  }
-  p {
-    color: $p_color;
-    font-size: 24px;
-    padding: 10px;
-  }
-  .btn {
-    margin: 15px;
-    transition: all 0.5s ease-in;
-  }
-  .wel {
-    padding: 8px;
-    background-color: #ffe0f7;
-    border-radius: 5px;
-    margin: 15px 12px 20px 12px;
-    box-shadow: 3px 7px 4px 4px rgba(0, 0, 0, 0.11);
-    transition: all 0.5s ease-in;
-
-    h4 {
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: 20px;
-      color: $color7;
-    }
-
-    p {
-      padding: 5px 20px;
-      margin: 0 2px;
-      color: $p_color;
-    }
-    .btn {
-      padding: 5px 22px;
-      border-radius: 20px;
-      background-color: #fff;
-      color: $color7;
-      border: 1px solid $color7;
-      font-weight: bold;
-      transition: all 0.5s;
-
-      &:hover {
-        background-color: $color7;
-        color: #fff;
-        border: 1px solid $color7;
-      }
-    }
-  }
-}
- */
 .gallery {
   background-color: $back1;
-  padding: 60px;
-  h1 {
+  padding: 60px 30px;
+  h2 {
     font-size: 34px;
     padding-bottom: 20px;
+    color: $item_head_color;
   }
 
   .my-gall {
@@ -318,7 +249,99 @@
     }
   }
 }
-.menu1 {
+
+
+
+/* ============================ welcome 2 section properties ============================ */
+.welcome2 {
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/5.jpg") no-repeat center center / cover;
+  
+  background-attachment: fixed;
+  height: auto;
+  padding: 40px 0;
+  color: #fff;
+  h2 {
+    padding: 17px;
+    font-size: 37px;
+    font-weight: bold;
+    color: #FFF;
+  }
+
+  .wel-txt,
+  .wel-txt_2 {
+    h3 {
+      font-size: 27px;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 20px;
+      padding-right: 50px;
+    }
+  }
+/*  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    background: lightslategray;
+    width: 70px;
+    height: 70px;
+    top: -55px;
+    z-index: 100;
+  }
+  &::before {
+    transform: skew(0, 45deg);
+    right: 50%;
+  }
+  &::after {
+    left: 50%;
+    transform: skew(0, -45deg);
+  }*/
+}
+
+.right {
+  animation-name: right_to_left;
+  animation-duration: 2s;
+}
+.right2 {
+  animation-name: right_to_left;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+.left {
+  animation-name: left_to_right;
+  animation-duration: 2s;
+}
+.left2 {
+  animation-name: left_to_right;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+@keyframes right_to_left {
+  0% {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes left_to_right {
+  0% {
+    transform: translateX(-400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*.menu1 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.88)),
     url("../image/4.jpg") no-repeat center center / cover;
   background-attachment: fixed;
@@ -373,127 +396,10 @@
       }
     }
   }
-}
+}*/
 
-/* ============================ welcome 2 section properties ============================ */
-.welcome2 {
-  padding: 50px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../image/5.jpg") no-repeat center center / cover;
-  /* background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("../image/5.jpg") no-repeat center center / cover; */
-  background-attachment: fixed;
-  height: auto;
-  padding: 40px 0;
-  color: #fff;
-  h2 {
-    padding: 17px;
-    font-size: 37px;
-    font-weight: bold;
-    color: #ffc107;
-  }
 
-  .wel-txt,
-  .wel-txt_2 {
-    h3 {
-      font-size: 27px;
-      margin-top: 20px;
-      font-weight: 500;
-    }
-    p {
-      font-size: 20px;
-      padding-right: 50px;
-    }
-  }
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    background: lightslategray;
-    width: 70px;
-    height: 70px;
-    top: -55px;
-    z-index: 100;
-  }
-  &::before {
-    transform: skew(0, 45deg);
-    right: 50%;
-  }
-  &::after {
-    left: 50%;
-    transform: skew(0, -45deg);
-  }
-}
 
-.right {
-  animation-name: right_to_left;
-  animation-duration: 2s;
-}
-.right2 {
-  animation-name: right_to_left;
-  animation-duration: 2s;
-  animation-delay: 1.5s;
-}
-.left {
-  animation-name: left_to_right;
-  animation-duration: 2s;
-}
-.left2 {
-  animation-name: left_to_right;
-  animation-duration: 2s;
-  animation-delay: 1.5s;
-}
-@keyframes right_to_left {
-  0% {
-    transform: translateX(400px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes left_to_right {
-  0% {
-    transform: translateX(-400px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-/* ========================= starting of reservation section =====================*/
-.reserv {
-  padding: 50px 0;
-  background-color: #fff;
-
-  h2 {
-    font-size: 30px;
-    font-weight: bold;
-  }
-  .reserv-content {
-    background-color: lightpink;
-    height: 100px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-  }
-}
-/* ========================= ending  of reservation section =====================*/
-
-.reserve {
-  padding: 50px 0;
-  text-align: center;
-  h2 {
-    color: $h2;
-  }
-}
 
 /*=================================================== Animation =======================*/
 @keyframes my_motion_1 {
@@ -562,17 +468,7 @@
         border: 1px solid $blue1;
       }
     }
-    /*  .effect {
-      animation-name: leftToRight;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out;
-    } */
-  
-    /* .effect2 {
-      animation-name: rightToLeft;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out;
-    } */
+    
   }
 
   .intro {
@@ -601,7 +497,7 @@
   .home-menu {
     
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   
     h2 {
       
@@ -629,18 +525,14 @@
             
             margin: 6px auto;
             font-size: 20px;
-            top: 20%;
+            
            
           }
           .btn {
-           
-            top: 65%;
-         
-           
-            padding: 10px 21px;
-            border-radius: 21px;
-          
-            font-size: 17px;
+            
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 16px;
             &:hover {
               color: #fff;
               background-color: $blue1;
@@ -663,23 +555,87 @@
     }
   }  
   
+  
+.welcome2 {
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+  
+  h2 {
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: $menu_nav2;
+    text-align: center;
+  }
+
+  .wel-txt,
+  .wel-txt_2 {
+    h3 {
+      font-size: 27px;
+      margin-top: 15px;
+      margin-bottom:0px;
+      font-weight: bold;
+      text-align: center;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom:5px;
+      text-align: center;
+      padding: 10px 5px;
+    }
+  }
+  }
+
+.gallery {
+  
+  padding: 25px 15px;
+  h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+  }
+
+  .my-gall {
+    margin: 0;
+    padding: 0;
+    .gall {
+      
+      .overlay {
+        
+        p {
+          font-size: 17px;
+          margin-top: 20%;
+          
+        }
+      }
+      
+    }
+  }
+}
+
 }
 
 /*========================== max sizse 320px =================*/
 @media (max-width: 480px) {
-  .banner {
-    height: 80vh;
+   .banner {
+   
+    height:  90vh;
     .text1 {
-      color: #fff;
-      font-size: 30px;
-      /* margin-top: -30px;  
+      
+      font-size: 26px;
+      margin-top: -30px;
       margin-bottom: 20px;
-      font-family: "Bree Serif", serif; */
+      
     }
-
+  
     .btn {
-      padding: 4px 20px;
-      font-size: 17px;
+      margin: 15px 10px;
+      padding: 5px 24px;
+      font-size: 18px;
+      font-weight: bold;
       border-radius: 20px;
     }
     .btn-light {
@@ -703,7 +659,148 @@
         border: 1px solid $blue1;
       }
     }
+    
   }
+
+  .intro {
+    margin: 10px auto;
+    padding: 3px;
+  
+    h3 {
+      margin: 5px;
+      font-size: 27px;
+    }
+  
+    p {
+      width: 80%;
+      font-size: 19px;
+      margin: 5px auto;
+      line-height: 30px;
+  
+      &::before , &::after{
+        font-size: 22px; 
+      }
+    }
+  }
+  .home-menu {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    h2 {
+      
+      font-size: 27px;
+    }
+  
+    p {
+      padding: 5px;
+      font-size: 19px;
+      line-height: 30px;
+    }
+    .menu_1 {
+  height: 170px;
+      .home-menu1 {
+        
+        border-radius: 1px;
+        &:hover img {
+          transform: scale(1.09);
+        }
+        .overlay {
+         
+          h3 {
+            
+            margin: 6px auto;
+            font-size: 23px;
+            
+           
+          }
+          .btn {
+            
+            padding: 8px 18px;
+            border-radius: 25px;
+            font-size: 16px;
+            &:hover {
+              color: #fff;
+              background-color: $blue1;
+              border: 1px solid #fff;
+            }
+          }
+        }
+        &:hover .overlay {
+          opacity: 1;
+  
+          h3 {
+            animation: my_motion_1 1s;
+          }
+  
+          .btn {
+            animation: my_motion_2 1s;
+          }
+        }
+      }
+    }
+  }  
+  
+  
+.welcome2 {
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+  
+  h2 {
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: $menu_nav2;
+    text-align: center;
+  }
+
+  .wel-txt,
+  .wel-txt_2 {
+    h3 {
+      font-size: 27px;
+      margin-top: 15px;
+      margin-bottom:0px;
+      font-weight: bold;
+      text-align: center;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom:5px;
+      text-align: center;
+      padding: 10px 5px;
+    }
+  }
+  }
+
+.gallery {
+  
+  padding: 25px 15px;
+  h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+  }
+
+  .my-gall {
+    margin: 0;
+    padding: 0;
+    .gall {
+      
+      .overlay {
+        
+        p {
+          font-size: 17px;
+          margin-top: 20%;
+          
+        }
+      }
+      
+    }
+  }
+}
 }
 
 /*========================== max sizse 600px =================*/

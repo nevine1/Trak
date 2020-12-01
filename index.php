@@ -127,9 +127,9 @@ require "includes/header.php";
 
 <!-- starting of gallery -->
 <section class="gallery text-center change-div-color">
-    <h1 class="text-danger font-weight-bold text-center">
+    <h2 class=" font-weight-bold text-center">
         Delicous Plates
-    </h1>
+    </h2>
 
     <div class="row">
         <div class="col-md-3 col-sm-6 col-6 my-gall">

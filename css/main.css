@@ -800,82 +800,13 @@ header {
       font-size: 40px;
       color: #928b8b; }
 
-/* .welcome {
-  background: #fff !important;
-  padding: 40px 0 60px 0;
-  h2 {
-    
-    color: var(--main-color);
-    padding-bottom: 10px;
-    display: inline-block;
-
-    &::after {
-      content: "";
-      display: block;
-      width: 100%;
-      margin-bottom: 5px;
-      height: 4px;
-      background: linear-gradient(to right, #00aae7, $blue1);
-      transition: all 0.5s;
-      transform: scale(1);
-    }
-    &:hover::after {
-      transform: scale(0.5);
-    }
-  }
-  p {
-    color: $p_color;
-    font-size: 24px;
-    padding: 10px;
-  }
-  .btn {
-    margin: 15px;
-    transition: all 0.5s ease-in;
-  }
-  .wel {
-    padding: 8px;
-    background-color: #ffe0f7;
-    border-radius: 5px;
-    margin: 15px 12px 20px 12px;
-    box-shadow: 3px 7px 4px 4px rgba(0, 0, 0, 0.11);
-    transition: all 0.5s ease-in;
-
-    h4 {
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: 20px;
-      color: $color7;
-    }
-
-    p {
-      padding: 5px 20px;
-      margin: 0 2px;
-      color: $p_color;
-    }
-    .btn {
-      padding: 5px 22px;
-      border-radius: 20px;
-      background-color: #fff;
-      color: $color7;
-      border: 1px solid $color7;
-      font-weight: bold;
-      transition: all 0.5s;
-
-      &:hover {
-        background-color: $color7;
-        color: #fff;
-        border: 1px solid $color7;
-      }
-    }
-  }
-}
- */
 .gallery {
   background-color: #f4f4f4;
-  padding: 60px; }
-  .gallery h1 {
+  padding: 60px 30px; }
+  .gallery h2 {
     font-size: 34px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    color: #a32a2a; }
   .gallery .my-gall {
     margin: 0;
     padding: 0; }
@@ -982,64 +913,36 @@ header {
         .home-menu .menu_1 .home-menu1:hover .overlay .btn {
           animation: my_motion_2 1s; }
 
-.menu1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.88)), url("../image/4.jpg") no-repeat center center/cover;
-  background-attachment: fixed;
-  height: auto;
-  padding: 80px 0; }
-  .menu1 .menu-container {
-    opacity: 0;
-    margin: 10px 40px;
-    transition: all 0.5s ease-in; }
-    .menu1 .menu-container .menu-1 {
-      background-color: #e0e0e4 !important;
-      border-radius: 10px;
-      box-shadow: 0px 3px 3px grey;
-      padding: 36px; }
-      .menu1 .menu-container .menu-1 h3 {
-        margin: 25px;
-        font-size: 32px;
-        color: #c9a2a9; }
-      .menu1 .menu-container .menu-1 .card {
-        margin-bottom: 15px; }
-        .menu1 .menu-container .menu-1 .card img {
-          max-width: 100%;
-          padding: 5px;
-          transition: all 0.5s ease-in; }
-        .menu1 .menu-container .menu-1 .card .card-body h4 {
-          font-size: 20px;
-          color: #7f7a7a;
-          margin-bottom: 4px; }
-        .menu1 .menu-container .menu-1 .card .card-body .btn {
-          color: #0fabbc;
-          background-color: #fff;
-          border: 1px solid #0fabbc;
-          font-size: 16px;
-          padding: 2px 8px;
-          transition: all 0.4s ease-in; }
-          .menu1 .menu-container .menu-1 .card .card-body .btn:hover {
-            color: #fff;
-            background-color: #0fabbc;
-            border: 1px solid #fff; }
-
 /* ============================ welcome 2 section properties ============================ */
 .welcome2 {
-  padding: 50px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../image/5.jpg") no-repeat center center/cover;
-  /* background: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("../image/5.jpg") no-repeat center center / cover; */
   background-attachment: fixed;
   height: auto;
   padding: 40px 0;
-  color: #fff; }
+  color: #fff;
+  /*  &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      background: lightslategray;
+      width: 70px;
+      height: 70px;
+      top: -55px;
+      z-index: 100;
+    }
+    &::before {
+      transform: skew(0, 45deg);
+      right: 50%;
+    }
+    &::after {
+      left: 50%;
+      transform: skew(0, -45deg);
+    }*/ }
   .welcome2 h2 {
     padding: 17px;
     font-size: 37px;
     font-weight: bold;
-    color: #ffc107; }
+    color: #FFF; }
   .welcome2 .wel-txt h3,
   .welcome2 .wel-txt_2 h3 {
     font-size: 27px;
@@ -1049,20 +952,6 @@ header {
   .welcome2 .wel-txt_2 p {
     font-size: 20px;
     padding-right: 50px; }
-  .welcome2::before, .welcome2::after {
-    content: "";
-    position: absolute;
-    background: lightslategray;
-    width: 70px;
-    height: 70px;
-    top: -55px;
-    z-index: 100; }
-  .welcome2::before {
-    transform: skew(0, 45deg);
-    right: 50%; }
-  .welcome2::after {
-    left: 50%;
-    transform: skew(0, -45deg); }
 
 .right {
   animation-name: right_to_left;
@@ -1096,27 +985,62 @@ header {
   100% {
     transform: translateX(0);
     opacity: 1; } }
-/* ========================= starting of reservation section =====================*/
-.reserv {
-  padding: 50px 0;
-  background-color: #fff; }
-  .reserv h2 {
-    font-size: 30px;
-    font-weight: bold; }
-  .reserv .reserv-content {
-    background-color: lightpink;
-    height: 100px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center; }
+/*.menu1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.88)),
+    url("../image/4.jpg") no-repeat center center / cover;
+  background-attachment: fixed;
+  height: auto;
+  padding: 80px 0;
 
-/* ========================= ending  of reservation section =====================*/
-.reserve {
-  padding: 50px 0;
-  text-align: center; }
-  .reserve h2 {
-    color: #5d5a5a; }
+  .menu-container {
+    opacity: 0;
+    margin: 10px 40px;
+    transition: all 0.5s ease-in;
 
+    .menu-1 {
+      background-color: #e0e0e4 !important;
+      border-radius: 10px;
+      box-shadow: 0px 3px 3px grey;
+      padding: 36px;
+
+      h3 {
+        margin: 25px;
+        font-size: 32px;
+        color: $color3;
+      }
+      .card {
+        margin-bottom: 15px;
+
+        img {
+          max-width: 100%;
+          padding: 5px;
+          transition: all 0.5s ease-in;
+        }
+
+        .card-body {
+          h4 {
+            font-size: 20px;
+            color: #7f7a7a;
+            margin-bottom: 4px;
+          }
+          .btn {
+            color: $blue1;
+            background-color: #fff;
+            border: 1px solid $blue1;
+            font-size: 16px;
+            padding: 2px 8px;
+            transition: all 0.4s ease-in;
+            &:hover {
+              color: #fff;
+              background-color: $blue1;
+              border: 1px solid #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}*/
 /*=================================================== Animation =======================*/
 @keyframes my_motion_1 {
   0% {
@@ -1136,17 +1060,7 @@ header {
 /*========================== max sizse 320px =================*/
 @media (max-width: 320px) {
   .banner {
-    height: 90vh;
-    /*  .effect {
-      animation-name: leftToRight;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out;
-    } */
-    /* .effect2 {
-      animation-name: rightToLeft;
-      animation-duration: 2s;
-      animation-timing-function: ease-in-out;
-    } */ }
+    height: 90vh; }
     .banner .text1 {
       font-size: 26px;
       margin-top: -30px;
@@ -1193,7 +1107,7 @@ header {
 
   .home-menu {
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 30px; }
     .home-menu h2 {
       font-size: 25px; }
     .home-menu p {
@@ -1208,13 +1122,11 @@ header {
           transform: scale(1.09); }
         .home-menu .menu_1 .home-menu1 .overlay h3 {
           margin: 6px auto;
-          font-size: 20px;
-          top: 20%; }
+          font-size: 20px; }
         .home-menu .menu_1 .home-menu1 .overlay .btn {
-          top: 65%;
-          padding: 10px 21px;
-          border-radius: 21px;
-          font-size: 17px; }
+          padding: 8px 18px;
+          border-radius: 25px;
+          font-size: 16px; }
           .home-menu .menu_1 .home-menu1 .overlay .btn:hover {
             color: #fff;
             background-color: #0fabbc;
@@ -1224,20 +1136,58 @@ header {
           .home-menu .menu_1 .home-menu1:hover .overlay h3 {
             animation: my_motion_1 1s; }
           .home-menu .menu_1 .home-menu1:hover .overlay .btn {
-            animation: my_motion_2 1s; } }
+            animation: my_motion_2 1s; }
+
+  .welcome2 {
+    height: auto;
+    padding: 20px 0;
+    text-align: center; }
+    .welcome2 h2 {
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-size: 30px;
+      font-weight: bold;
+      color: #0fabbc;
+      text-align: center; }
+    .welcome2 .wel-txt h3,
+    .welcome2 .wel-txt_2 h3 {
+      font-size: 27px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      text-align: center; }
+    .welcome2 .wel-txt p,
+    .welcome2 .wel-txt_2 p {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-align: center;
+      padding: 10px 5px; }
+
+  .gallery {
+    padding: 25px 15px; }
+    .gallery h2 {
+      font-size: 25px;
+      padding-bottom: 10px; }
+    .gallery .my-gall {
+      margin: 0;
+      padding: 0; }
+      .gallery .my-gall .gall .overlay p {
+        font-size: 17px;
+        margin-top: 20%; } }
 /*========================== max sizse 320px =================*/
 @media (max-width: 480px) {
   .banner {
-    height: 80vh; }
+    height: 90vh; }
     .banner .text1 {
-      color: #fff;
-      font-size: 30px;
-      /* margin-top: -30px;  
-      margin-bottom: 20px;
-      font-family: "Bree Serif", serif; */ }
+      font-size: 26px;
+      margin-top: -30px;
+      margin-bottom: 20px; }
     .banner .btn {
-      padding: 4px 20px;
-      font-size: 17px;
+      margin: 15px 10px;
+      padding: 5px 24px;
+      font-size: 18px;
+      font-weight: bold;
       border-radius: 20px; }
     .banner .btn-light {
       color: #0fabbc;
@@ -1255,7 +1205,92 @@ header {
         background-color: #dae0e5;
         color: #0fabbc;
         transition: all 0.5s ease;
-        border: 1px solid #0fabbc; } }
+        border: 1px solid #0fabbc; }
+
+  .intro {
+    margin: 10px auto;
+    padding: 3px; }
+    .intro h3 {
+      margin: 5px;
+      font-size: 27px; }
+    .intro p {
+      width: 80%;
+      font-size: 19px;
+      margin: 5px auto;
+      line-height: 30px; }
+      .intro p::before, .intro p::after {
+        font-size: 22px; }
+
+  .home-menu {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .home-menu h2 {
+      font-size: 27px; }
+    .home-menu p {
+      padding: 5px;
+      font-size: 19px;
+      line-height: 30px; }
+    .home-menu .menu_1 {
+      height: 170px; }
+      .home-menu .menu_1 .home-menu1 {
+        border-radius: 1px; }
+        .home-menu .menu_1 .home-menu1:hover img {
+          transform: scale(1.09); }
+        .home-menu .menu_1 .home-menu1 .overlay h3 {
+          margin: 6px auto;
+          font-size: 23px; }
+        .home-menu .menu_1 .home-menu1 .overlay .btn {
+          padding: 8px 18px;
+          border-radius: 25px;
+          font-size: 16px; }
+          .home-menu .menu_1 .home-menu1 .overlay .btn:hover {
+            color: #fff;
+            background-color: #0fabbc;
+            border: 1px solid #fff; }
+        .home-menu .menu_1 .home-menu1:hover .overlay {
+          opacity: 1; }
+          .home-menu .menu_1 .home-menu1:hover .overlay h3 {
+            animation: my_motion_1 1s; }
+          .home-menu .menu_1 .home-menu1:hover .overlay .btn {
+            animation: my_motion_2 1s; }
+
+  .welcome2 {
+    height: auto;
+    padding: 20px 0;
+    text-align: center; }
+    .welcome2 h2 {
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-size: 30px;
+      font-weight: bold;
+      color: #0fabbc;
+      text-align: center; }
+    .welcome2 .wel-txt h3,
+    .welcome2 .wel-txt_2 h3 {
+      font-size: 27px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      text-align: center; }
+    .welcome2 .wel-txt p,
+    .welcome2 .wel-txt_2 p {
+      font-size: 20px;
+      margin-bottom: 5px;
+      text-align: center;
+      padding: 10px 5px; }
+
+  .gallery {
+    padding: 25px 15px; }
+    .gallery h2 {
+      font-size: 25px;
+      padding-bottom: 10px; }
+    .gallery .my-gall {
+      margin: 0;
+      padding: 0; }
+      .gallery .my-gall .gall .overlay p {
+        font-size: 17px;
+        margin-top: 20%; } }
 /*========================== max sizse 600px =================*/
 /*========================== max sizse 768px =================*/
 /*========================== max sizse 900px =================*/
