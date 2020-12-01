@@ -227,9 +227,9 @@ require "includes/header.php";
 <div class="popup">
     <div class="working-hours text-center" id="hours">
         <i class="fa fa-times close-button" aria-hidden="true"></i>
-        <h2>Working Hours </h2>
+        
 
-        <div class="row text-center">
+        <div class="row ">
             <!-- <h2>Get In Touch </h2> -->
             <div class="col-md-12 col-sm-12 col-12">
 

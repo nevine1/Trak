@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f5b33172-3721-4ee6-9ec8-38c13a0239d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/_general.scss" afterPath="$PROJECT_DIR$/css/sass/_general.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/_header.scss" afterPath="$PROJECT_DIR$/css/sass/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="Trak.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +36,12 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="498">
-              <caret line="294" column="3" selection-start-line="294" selection-start-column="3" selection-end-line="294" selection-end-column="3" />
-              <folding />
+              <caret line="322" column="3" selection-start-line="322" selection-start-column="3" selection-end-line="322" selection-end-column="3" />
+              <folding>
+                <marker date="1606830510102" expanded="true" signature="10472:10486" ph="..." />
+                <marker date="1606830510102" expanded="true" signature="10472:10498" ph="..." />
+                <marker date="1606830510102" expanded="true" signature="10472:10505" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,8 +49,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="328">
+              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -51,16 +59,15 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/sass/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+            <state relative-caret-position="338">
+              <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
               <folding>
-                <element signature="e#1455#2578#0" expanded="false" />
-                <element signature="e#3911#5152#0" expanded="false" />
-                <element signature="e#6380#7621#0" expanded="false" />
-                <element signature="e#8812#10053#0" expanded="false" />
-                <element signature="e#11337#12578#0" expanded="false" />
-                <element signature="e#13894#15135#0" expanded="false" />
-                <element signature="e#16451#17692#0" expanded="false" />
+                <element signature="e#1449#2820#0" expanded="false" />
+                <element signature="e#6628#7869#0" expanded="false" />
+                <element signature="e#9060#10301#0" expanded="false" />
+                <element signature="e#11585#12826#0" expanded="false" />
+                <element signature="e#14142#15383#0" expanded="false" />
+                <element signature="e#16699#17940#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/css/sass/_index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="249" column="7" selection-start-line="249" selection-start-column="7" selection-end-line="249" selection-end-column="7" />
+              <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -79,7 +86,7 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
+            <state relative-caret-position="546">
               <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding />
             </state>
@@ -89,8 +96,8 @@
       <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="194">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -225,8 +232,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,15 +290,16 @@
       <workItem from="1606445904953" duration="5251000" />
       <workItem from="1606520444502" duration="11203000" />
       <workItem from="1606664243315" duration="3518000" />
+      <workItem from="1606832379213" duration="6615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35823000" />
+    <option name="totallyTimeSpent" value="42438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -332,7 +340,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4998">
           <caret line="294" column="3" selection-start-line="294" selection-start-column="3" selection-end-line="294" selection-end-column="3" />
+          <folding>
+            <marker date="1606830510102" expanded="true" signature="10472:10486" ph="..." />
+            <marker date="1606830510102" expanded="true" signature="10472:10498" ph="..." />
+            <marker date="1606830510102" expanded="true" signature="10472:10505" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1449#2820#0" expanded="false" />
+            <element signature="e#6628#7869#0" expanded="false" />
+            <element signature="e#9060#10301#0" expanded="false" />
+            <element signature="e#11585#12826#0" expanded="false" />
+            <element signature="e#14142#15383#0" expanded="false" />
+            <element signature="e#16699#17940#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="249" column="7" selection-start-line="249" selection-start-column="7" selection-end-line="249" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4998">
+          <caret line="294" column="3" selection-start-line="294" selection-start-column="3" selection-end-line="294" selection-end-column="3" />
+          <folding>
+            <marker date="1606830510102" expanded="true" signature="10472:10486" ph="..." />
+            <marker date="1606830510102" expanded="true" signature="10472:10498" ph="..." />
+            <marker date="1606830510102" expanded="true" signature="10472:10505" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -500,17 +571,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
+        <state relative-caret-position="546">
           <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding />
         </state>
@@ -519,7 +582,7 @@
     <entry file="file://$PROJECT_DIR$/css/sass/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="249" column="7" selection-start-line="249" selection-start-column="7" selection-end-line="249" selection-end-column="7" />
+          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -527,31 +590,42 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
-          <caret line="294" column="3" selection-start-line="294" selection-start-column="3" selection-end-line="294" selection-end-column="3" />
+          <caret line="322" column="3" selection-start-line="322" selection-start-column="3" selection-end-line="322" selection-end-column="3" />
+          <folding>
+            <marker date="1606830510102" expanded="true" signature="10472:10486" ph="..." />
+            <marker date="1606830510102" expanded="true" signature="10472:10498" ph="..." />
+            <marker date="1606830510102" expanded="true" signature="10472:10505" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="328">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="338">
+          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
           <folding>
-            <element signature="e#1455#2578#0" expanded="false" />
-            <element signature="e#3911#5152#0" expanded="false" />
-            <element signature="e#6380#7621#0" expanded="false" />
-            <element signature="e#8812#10053#0" expanded="false" />
-            <element signature="e#11337#12578#0" expanded="false" />
-            <element signature="e#13894#15135#0" expanded="false" />
-            <element signature="e#16451#17692#0" expanded="false" />
+            <element signature="e#1449#2820#0" expanded="false" />
+            <element signature="e#6628#7869#0" expanded="false" />
+            <element signature="e#9060#10301#0" expanded="false" />
+            <element signature="e#11585#12826#0" expanded="false" />
+            <element signature="e#14142#15383#0" expanded="false" />
+            <element signature="e#16699#17940#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap");
 
+$trans1: all 0.7s;
+$white: #fff;
+$backgrd: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+
 *,
 *::before,
 *::after {
@@ -12,9 +16,26 @@
 body {
   overflow-x: hidden;
   line-height: 34px;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 18px;
   font-family: "Source Serif Pro", serif;
-    
-  
 }
+
+
+.social-icons {
+  font-size: 17px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+  margin: 0 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: #fff;
+    color: $color9;
+  }
+}
+

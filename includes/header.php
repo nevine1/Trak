@@ -75,9 +75,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="keep_touch_2">
-                        <h3>Waiting for your order before 10 Pm</h3>
-                        <p> <i class="fa fa-phone fa-keep-touch"></i> (804) 740-1700</p>
-                        <p> <i class="fa fa-map-marker fa-keep-touch"></i> (804) 456-58989</p>
+                        <div class="cont_info">
+                            <h3>Waiting for your order before 10:00 PM</h3>
+
+                            <a class="nav-link" href="contact.php"><i class="fa fa-map-marker fa-keep-touch"></i> 9115 Quioccasin Rd, Richmond, VA 23229, USA</a>
+                            <p> <i class="fa fa-phone fa-keep-touch"></i> (804) 740-1700</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">

@@ -15,9 +15,19 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Parisienne&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 body {
+  overflow-x: hidden;
+  line-height: 34px;
+  font-weight: 500;
   font-size: 18px;
-  line-height: 32px; }
+  font-family: "Source Serif Pro", serif; }
 
 .social-icons, footer .social a i {
   font-size: 17px;
@@ -33,20 +43,6 @@ body {
   .social-icons:hover, footer .social a i:hover {
     background-color: #fff;
     color: #24a4cf; }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-body {
-  overflow-x: hidden;
-  line-height: 34px;
-  font-weight: 300;
-  font-size: 18px;
-  font-family: "Source Serif Pro", serif; }
 
 .nav_active {
   background-color: #fff;
@@ -109,10 +105,11 @@ header {
   transform: scale(0); }
   .popup-contact .keep_touch {
     position: relative;
-    background-color: #fcf6f6;
-    width: 50%;
+    background-color: #fff;
+    width: 40%;
     margin: 10% auto;
-    border-radius: 5px; }
+    border-radius: 5px;
+    height: 300px; }
     .popup-contact .keep_touch .contact_close {
       position: absolute;
       float: right;
@@ -122,31 +119,39 @@ header {
       color: #fff;
       z-index: 1000;
       cursor: pointer;
-      width: 25px;
-      height: 25px;
-      background-color: #ffc107;
-      line-height: 25px;
+      width: 30px;
+      height: 30px;
+      background-color: #0fabbc;
+      line-height: 30px;
       border-radius: 50%;
       text-align: center; }
     .popup-contact .keep_touch .keep_touch_2 {
       width: 100%;
+      height: 100%;
       padding: 0;
       margin: 0;
-      text-align: center; }
-      .popup-contact .keep_touch .keep_touch_2 h3 {
-        margin: 20px 0;
-        font-size: 23px; }
-      .popup-contact .keep_touch .keep_touch_2 p {
-        font-size: 18px; }
-        .popup-contact .keep_touch .keep_touch_2 p .fa-keep-touch {
-          color: #28a745;
-          padding-left: 10px;
-          font-size: 20px; }
+      text-align: center;
+      position: relative; }
+      .popup-contact .keep_touch .keep_touch_2 .cont_info {
+        padding: 20px; }
+        .popup-contact .keep_touch .keep_touch_2 .cont_info h3 {
+          padding: 10px;
+          font-size: 24px;
+          color: #a32a2a; }
+        .popup-contact .keep_touch .keep_touch_2 .cont_info p, .popup-contact .keep_touch .keep_touch_2 .cont_info a {
+          font-size: 20px;
+          padding: 5px;
+          color: #433e3e; }
+          .popup-contact .keep_touch .keep_touch_2 .cont_info p .fa-keep-touch, .popup-contact .keep_touch .keep_touch_2 .cont_info a .fa-keep-touch {
+            color: #28a745;
+            padding-right: 10px;
+            font-size: 22px; }
       .popup-contact .keep_touch .keep_touch_2 img {
         width: 100%;
-        height: inherit;
+        height: 300px;
         top: 0;
-        left: 0; }
+        right: 0;
+        bottom: 0; }
 
 /* ======================  ending of popup menu for keeep in touch  ========================= */
 /*========================== media query  ===============================================================*/
@@ -189,7 +194,7 @@ header {
     .popup-contact .keep_touch {
       position: relative;
       background-color: #fcf6f6;
-      width: 50%;
+      width: 40%;
       margin: 10% auto;
       border-radius: 5px; }
       .popup-contact .keep_touch .contact_close {
@@ -201,10 +206,10 @@ header {
         color: #fff;
         z-index: 1000;
         cursor: pointer;
-        width: 25px;
-        height: 25px;
-        background-color: #ffc107;
-        line-height: 25px;
+        width: 30px;
+        height: 30px;
+        background-color: #0fabbc;
+        line-height: 30px;
         border-radius: 50%;
         text-align: center; }
       .popup-contact .keep_touch .keep_touch_2 {
@@ -222,8 +227,9 @@ header {
             padding-left: 10px;
             font-size: 20px; }
         .popup-contact .keep_touch .keep_touch_2 img {
+          position: relative;
           width: 100%;
-          height: inherit;
+          height: 100%;
           top: 0;
           left: 0; }
 
