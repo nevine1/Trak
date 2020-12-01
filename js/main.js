@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
   //show keep in touch popup menu after loading the page 
-  /*  $(window).on('load', function(){
+   $(window).on('load', function(){
     setTimeout(() => {
       $('.popup-contact').css({'transform': 'scale(1)'});
     }, 4000);
 
-  });  */
+  });  
 
   // click on x to close the keep in touch popup window
   $('.contact_close').on('click', function(){

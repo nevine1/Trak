@@ -229,25 +229,53 @@ require "includes/header.php";
         <i class="fa fa-times close-button" aria-hidden="true"></i>
         <h2>Working Hours </h2>
 
-        <div class="text-center">
-            <table class="table-responsive table-hover mx-auto">
-                <tr>
-                    <td>Sunday</td>
-                    <td>04 AM - 09 PM </td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>04 AM - 09 PM </td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>04 AM - 09 PM </td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>04 AM - 09 PM </td>
-                </tr>
-            </table>
+        <div class="row text-center">
+            <!-- <h2>Get In Touch </h2> -->
+            <div class="col-md-12 col-sm-12 col-12">
+
+                <div class="my_hours">
+                    <h3>Working Hours</h3>
+                    <table class="table table-striped">
+                        <tr>
+                            <td class="day">Mon.</td>
+                            <td>10:00 AM </td>
+                            <td>10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Tue.</td>
+                            <td>10:00 AM</td>
+                            <td>10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Wen.</td>
+                            <td>10:00 AM</td>
+                            <td>10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Thu.</td>
+                            <td>10:00 AM</td>
+                            <td>10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Fri.</td>
+                            <td>10:00 AM</td>
+                            <td>10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Sat.</td>
+                            <td>10:00 AM</td>
+                            <td>10:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td class="day">Sun.</td>
+                            <td>12:00 AM</td>
+                            <td>8:00 PM</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+           
         </div>
 
     </div>
