@@ -5,15 +5,11 @@ require "includes/header.php";
 ?>
 
 <!--starting of banner-->
-<section class="banner">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center" style="height: 100vh;">
-            <div class="col-md-10 text-center">
+<div class="cont-intro d-flex flex-column text-center">
 
-            </div>
-        </div>
-    </div>
-</section>
+    <h2> Keep In Touch With Trak's</h2>
+
+</div>
 
 <!--ending of banner-->
 

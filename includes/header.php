@@ -24,7 +24,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
 
-            <a class="navbar-brand" href="index.php">Navbar w/ text</a>
+            <a class="navbar-brand" href="index.php">Trak's</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -76,9 +76,9 @@
                 <div class="col-md-6">
                     <div class="keep_touch_2">
                         <div class="cont_info">
-                            <h3>Waiting for your order before 10:00 PM</h3>
+                            <h3>Waiting for your order before 10:00PM</h3>
 
-                            <a class="nav-link" href="contact.php"><i class="fa fa-map-marker fa-keep-touch"></i> 9115 Quioccasin Rd, Richmond, VA 23229, USA</a>
+                            <a class="nav-link" href="contact.php"><i class="fa fa-map-marker fa-keep-touch"></i> 9115 Quioccasin Rd, Richmond, VA 23229.</a>
                             <p> <i class="fa fa-phone fa-keep-touch"></i> (804) 740-1700</p>
                         </div>
                     </div>

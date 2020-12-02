@@ -12,6 +12,9 @@ header {
     .navbar-brand {
       font-size: 28px;
       color: #fff;
+      font-weight: bold;
+      font-family: 'Courgette', cursive;
+      text-shadow: 0 5px 5px #000;
       &:hover {
         color: #fff;
       }
@@ -90,7 +93,7 @@ header {
   .keep_touch {
     position: relative;
     background-color: #fff;
-    width: 40%;
+    width: 50%;
     margin: 10% auto;
     border-radius: 5px;
     height: 300px;
@@ -123,16 +126,16 @@ header {
         h3 {
           padding: 10px ;
           font-size: 24px;
+          font-weight: 500;
           color: $item_head_color;
         }
 
         p, a {
           font-size: 20px;
-          padding: 5px;
+          padding: 5px 10px;
           color: #433e3e;
           .fa-keep-touch {
             color: $green;
-            padding-right: 10px;
             font-size: 22px;
           }
         }
@@ -166,7 +169,6 @@ header {
       
       .navbar-brand {
         font-size: 19px;
-        
         
       }
       .navbar-toggler {
@@ -212,27 +214,17 @@ header {
   }
 
 
-  /* ======================  starting of popup menu for keeep in touch  ========================= */
 
   .popup-contact {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transition: all 0.4s ease;
-    transform: scale(0);
+      display: none;
 
     .keep_touch {
       position: relative;
-      background-color: #fcf6f6;
-      width: 40%;
+      background-color: #fff;
+      width: 55%;
       margin: 10% auto;
       border-radius: 5px;
+      height: 200px;
       .contact_close {
         position: absolute;
         float: right;
@@ -251,37 +243,53 @@ header {
       }
       .keep_touch_2 {
         width: 100%;
-
+        height: 100%;
         padding: 0;
         margin: 0;
         text-align: center;
-        h3 {
-          margin: 20px 0;
+        position: relative;
 
-          font-size: 23px;
-        }
-        p {
-          font-size: 18px;
-          .fa-keep-touch {
-            color: $green;
-            padding-left: 10px;
-            font-size: 20px;
+        .cont_info{
+          padding:5px ;
+          h3 {
+            padding: 5px ;
+            font-size: 18px;
+
+          }
+
+          p, a {
+            font-size: 16px;
+            padding: 2px;
+            color: #433e3e;
+            .fa-keep-touch {
+              color: $green;
+              padding-right: 4px;
+              font-size: 17px;
+            }
           }
         }
 
+
+
         img {
-          position: relative;
+
           width: 100%;
-          height: 100%;
+          height: 300px;
           top: 0;
-          left: 0;
+          right: 0;
+          bottom:0;
         }
       }
     }
   }
-  /* ======================  ending of popup menu for keeep in touch  ========================= */
-}
 
+}
+@media (max-width: 380px){
+  .popup-contact{
+    display: none;
+  }
+
+}
 /*========================== max size 480px =================*/
 
 @media (max-width: 480px) {
@@ -351,624 +359,197 @@ header {
   }
 
 
-  /* ======================  starting of popup menu for keeep in touch  ========================= */
-
   .popup-contact {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transition: all 0.4s ease;
-    transform: scale(0);
 
     .keep_touch {
-      position: relative;
-      background-color: #fcf6f6;
-      width: 50%;
-      margin: 10% auto;
-      border-radius: 5px;
+
+      height: 180px;
       .contact_close {
-        position: absolute;
-        float: right;
-        padding: 0;
         right: -10px;
         top: -10px;
-        color: #fff;
-        z-index: 1000;
-        cursor: pointer;
         width: 25px;
         height: 25px;
-        background-color: $yellow;
         line-height: 25px;
-        border-radius: 50%;
-        text-align: center;
       }
       .keep_touch_2 {
-        width: 100%;
 
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        h3 {
-          margin: 20px 0;
+        .cont_info{
+          padding:5px ;
+          h3 {
+            padding: 2px ;
+            font-size: 18px;
+            margin: 3px;
 
-          font-size: 23px;
-        }
-        p {
-          font-size: 18px;
-          .fa-keep-touch {
-            color: $green;
-            padding-left: 10px;
-            font-size: 20px;
+          }
+
+          p, a {
+            font-size: 16px;
+            padding: 1px;
+
+            .fa-keep-touch {
+
+            }
           }
         }
 
+
+
         img {
-          width: 100%;
-          height: inherit;
-          top: 0;
-          left: 0;
+
+
+          height: 180px;
+
         }
       }
     }
   }
-  /* ======================  ending of popup menu for keeep in touch  ========================= */
+
 }
 
-/*========================== max sizse 768px =================*/
+/*========================== max size 768px =================*/
+
 
 @media (max-width: 768px) {
 
-  header {
-
-    .navbar {
-
-
-
-      .navbar-brand {
-        font-size: 28px;
-
-        &:hover {
-
-        }
-      }
-      .navbar-toggler{
-
-        font-size: 27px;
-        margin-bottom: 5px;
-        margin-top:5px;
-
-        span {
-          color: #fff;
-        }
-
-      }
-      .navbar-nav {
-        li {
-          .nav-link {
-            padding: 8px 15px;
-
-
-            .navbar-icon {
-
-            }
-
-            &:hover {
-
-            }
-            &:click {
-
-            }
-
-          }
-          &.dropdown {
-            .dropdown-menu {
-              background-color: $back2;
-
-              .dropdown-item {
-                color: $color_red;
-
-                &:hover,
-                &:focus {
-                  background-color: $back1;
-                  color: $menu_nav2;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-  }
-
-
-  /* ======================  starting of popup menu for keeep in touch  ========================= */
-
   .popup-contact {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transition: all 0.4s ease;
-    transform: scale(0);
 
     .keep_touch {
-      position: relative;
-      background-color: #fcf6f6;
-      width: 50%;
-      margin: 10% auto;
-      border-radius: 5px;
+      width: 70%;
+      height: 220px;
       .contact_close {
-        position: absolute;
-        float: right;
-        padding: 0;
-        right: -10px;
-        top: -10px;
-        color: #fff;
-        z-index: 1000;
-        cursor: pointer;
-        width: 25px;
-        height: 25px;
-        background-color: $yellow;
-        line-height: 25px;
-        border-radius: 50%;
-        text-align: center;
+
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
       }
       .keep_touch_2 {
-        width: 100%;
 
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        h3 {
-          margin: 20px 0;
-
-          font-size: 23px;
-        }
-        p {
-          font-size: 18px;
-          .fa-keep-touch {
-            color: $green;
-            padding-left: 10px;
-            font-size: 20px;
-          }
-        }
-
-        img {
-          width: 100%;
-          height: inherit;
-          top: 0;
-          left: 0;
-        }
-      }
-    }
-  }
-  /* ======================  ending of popup menu for keeep in touch  ========================= */
-}
-/*========================== max sizse 900px =================*/
-
-@media (max-width: 900px) {
-
-  header {
-
-    .navbar {
-
-
-
-      .navbar-brand {
-        font-size: 29px;
-
-        &:hover {
-
-        }
-      }
-      button {
-
-        font-size: 28px;
-        margin-bottom: 5px;
-        margin-top:5px;
-
-        span {
-          color: #fff;
-        }
-        &.navbar-toggler {
-          background-color: #fff;
-        }
-      }
-      .navbar-nav {
-        li {
-          .nav-link {
-            padding: 8px 15px;
-
-
-            .navbar-icon {
-
-            }
-
-            &:hover {
-
-            }
-            &:click {
-
-            }
-
-          }
-          &.dropdown {
-            .dropdown-menu {
-              background-color: $back2;
-
-              .dropdown-item {
-                color: $color_red;
-                font-size: 18px;
-                &:hover,
-                &:focus {
-                  background-color: $back1;
-                  color: $menu_nav2;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-  }
-
-
-  /* ======================  starting of popup menu for keeep in touch  ========================= */
-
-  .popup-contact {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transition: all 0.4s ease;
-    transform: scale(0);
-
-    .keep_touch {
-      position: relative;
-      background-color: #fcf6f6;
-      width: 50%;
-      margin: 10% auto;
-      border-radius: 5px;
-      .contact_close {
-        position: absolute;
-        float: right;
-        padding: 0;
-        right: -10px;
-        top: -10px;
-        color: #fff;
-        z-index: 1000;
-        cursor: pointer;
-        width: 25px;
-        height: 25px;
-        background-color: $yellow;
-        line-height: 25px;
-        border-radius: 50%;
-        text-align: center;
-      }
-      .keep_touch_2 {
-        width: 100%;
-
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        h3 {
-          margin: 20px 0;
-
-          font-size: 23px;
-        }
-        p {
-          font-size: 18px;
-          .fa-keep-touch {
-            color: $green;
-            padding-left: 10px;
-            font-size: 20px;
-          }
-        }
-
-        img {
-          width: 100%;
-          height: inherit;
-          top: 0;
-          left: 0;
-        }
-      }
-    }
-  }
-  /* ======================  ending of popup menu for keeep in touch  ========================= */
-}
-
-/*========================== max sizse 1024px =================*/
-
-@media (max-width: 1024px) {
-
-  header {
-
-    .navbar {
-
-
-
-      .navbar-brand {
-        font-size: 30px;
-
-        &:hover {
-
-        }
-      }
-      button {
-
-        font-size: 28px;
-        margin-bottom: 5px;
-        margin-top:5px;
-
-        span {
-          color: #fff;
-        }
-        &.navbar-toggler {
-          background-color: #fff;
-        }
-      }
-      .navbar-nav {
-        li {
-          .nav-link {
-            padding: 10px 15px;
+        .cont_info{
+          padding:20px;
+          h3 {
+            padding: 5px ;
             font-size: 21px;
-
-            .navbar-icon {
-
-            }
-
-            &:hover {
-
-            }
-            &:click {
-
-            }
+            margin: 5px 0;
 
           }
-          &.dropdown {
-            .dropdown-menu {
-              background-color: $back2;
 
-              .dropdown-item {
-                color: $color_red;
-                font-size: 18px;
-                &:hover,
-                &:focus {
-                  background-color: $back1;
-                  color: $menu_nav2;
-                }
-              }
+          p, a {
+            font-size: 18px;
+            padding: 8px;
+
+            .fa-keep-touch {
+              font-size: 19px;
             }
           }
         }
-      }
-    }
-
-  }
 
 
-  /* ======================  starting of popup menu for keeep in touch  ========================= */
-
-  .popup-contact {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transition: all 0.4s ease;
-    transform: scale(0);
-
-    .keep_touch {
-      position: relative;
-      background-color: #fcf6f6;
-      width: 50%;
-      margin: 10% auto;
-      border-radius: 5px;
-      .contact_close {
-        position: absolute;
-        float: right;
-        padding: 0;
-        right: -10px;
-        top: -10px;
-        color: #fff;
-        z-index: 1000;
-        cursor: pointer;
-        width: 25px;
-        height: 25px;
-        background-color: $yellow;
-        line-height: 25px;
-        border-radius: 50%;
-        text-align: center;
-      }
-      .keep_touch_2 {
-        width: 100%;
-
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        h3 {
-          margin: 20px 0;
-
-          font-size: 23px;
-        }
-        p {
-          font-size: 18px;
-          .fa-keep-touch {
-            color: $green;
-            padding-left: 10px;
-            font-size: 20px;
-          }
-        }
 
         img {
-          width: 100%;
-          height: inherit;
-          top: 0;
-          left: 0;
+
+
+          height: 220px;
+
         }
       }
     }
   }
-  /* ======================  ending of popup menu for keeep in touch  ========================= */
 }
 
-/*========================== max sizse 1200px =================*/
-
-@media (max-width: 1200px) {
-
-  header {
-
-    .navbar {
-
-
-
-      .navbar-brand {
-        font-size: 32px;
-
-        &:hover {
-
-        }
-      }
-      button {
-
-        font-size: 28px;
-        margin-bottom: 5px;
-        margin-top:5px;
-
-        span {
-          color: #fff;
-        }
-        &.navbar-toggler {
-          background-color: #fff;
-        }
-      }
-      .navbar-nav {
-        li {
-          .nav-link {
-            padding: 10px 15px;
-            font-size: 21px;
-
-            .navbar-icon {
-
-            }
-
-            &:hover {
-
-            }
-            &:click {
-
-            }
-
-          }
-          &.dropdown {
-            .dropdown-menu {
-              background-color: $back2;
-
-              .dropdown-item {
-                color: $color_red;
-                font-size: 18px;
-                &:hover,
-                &:focus {
-                  background-color: $back1;
-                  color: $menu_nav2;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-  }
-
-
-  /* ======================  starting of popup menu for keeep in touch  ========================= */
+/*========================== max size 992px =================*/
+@media (min-width: 992px) {
 
   .popup-contact {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    transition: all 0.4s ease;
-    transform: scale(0);
 
     .keep_touch {
-      position: relative;
-      background-color: #fcf6f6;
-      width: 50%;
-      margin: 10% auto;
-      border-radius: 5px;
+      width: 60%;
+      height: 250px;
       .contact_close {
-        position: absolute;
-        float: right;
-        padding: 0;
-        right: -10px;
-        top: -10px;
-        color: #fff;
-        z-index: 1000;
-        cursor: pointer;
-        width: 25px;
-        height: 25px;
-        background-color: $yellow;
-        line-height: 25px;
-        border-radius: 50%;
-        text-align: center;
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
       }
       .keep_touch_2 {
-        width: 100%;
 
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        h3 {
-          margin: 20px 0;
+        .cont_info{
+          padding:20px;
+          h3 {
+            padding: 9px ;
+            font-size: 23px;
+            margin: 5px 0;
 
-          font-size: 23px;
-        }
-        p {
-          font-size: 18px;
-          .fa-keep-touch {
-            color: $green;
-            padding-left: 10px;
-            font-size: 20px;
+          }
+
+          p, a {
+            font-size: 19px;
+            padding: 8px;
+
+            .fa-keep-touch {
+              font-size: 20px;
+            }
           }
         }
 
+
+
         img {
-          width: 100%;
-          height: inherit;
-          top: 0;
-          left: 0;
+
+
+          height: 250px;
+
         }
       }
     }
   }
-  /* ======================  ending of popup menu for keeep in touch  ========================= */
+}
+
+
+
+/*========================== max size 1200px =================*/
+@media (min-width: 1200px) {
+
+  .popup-contact {
+
+    .keep_touch {
+      width: 50%;
+      height: 300px;
+      .contact_close {
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+      }
+      .keep_touch_2 {
+
+        .cont_info{
+          padding:25px;
+          h3 {
+            padding: 10px ;
+            font-size: 26px;
+            margin: 8px 0;
+
+          }
+
+          p, a {
+            font-size: 20px;
+            padding: 10px;
+
+            .fa-keep-touch {
+              font-size: 21px;
+            }
+          }
+        }
+
+
+
+        img {
+
+
+          height: 300px;
+
+        }
+      }
+    }
+  }
 }
