@@ -150,8 +150,7 @@
       }
     }
 
-    /*    iframe {
-    } */
+    
     .my_hours {
       h3 {
         font-size: 20px;
@@ -233,66 +232,3 @@
 
 /*========================== max sizse 768px =================*/
 
-@media (max-width: 768px) {
-
-  .cont-intro {
-    height: 70vh;
-    h2 {
-      margin-top: 25px;
-      font-size: 34px;
-
-    }
-  }
-
-  .contact {
-    margin: 20px 0;
-
-    h2 {
-      font-size: 29px;
-
-      margin-top: 20px;
-      margin-bottom: 10px;
-      padding:10px 0;
-    }
-    .info {
-      padding-top: 0;
-      margin-top: 0;
-      p {
-        font-size: 18px;
-
-        span {
-          font-size: 18px;
-        }
-      }
-    }
-
-
-    .my_hours {
-      padding:0;
-      margin:0;
-      h3 {
-        font-size: 20px;
-        padding: 10px 0;
-      }
-      .table {
-        tr {
-          td {
-            font-size: 17px;
-          }
-          .day {
-            font-size: 17px;
-          }
-        }
-      }
-    }
-
-    .map{
-      padding:0;
-      margin:0;
-    }
-
-  }
-}
-
-/
-}
